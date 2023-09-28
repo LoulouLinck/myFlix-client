@@ -17,19 +17,19 @@ const MovieCard = ({ movie, onMovieClick }) => {
 MovieCard.propTypes = {
   movie: PropTypes.shape({
     // Imagepath: PropTypes.string.isRequired,
-    // ReleaseYear: PropTypes.string,
-    // Description: PropTypes.string,
+    // ReleaseYear: PropTypes.string.isRequired,
+    // Description: PropTypes.string.isRequired,
     // Director: PropTypes.shape({
-    //   Name: PropTypes.string,
-    //   Bio: PropTypes.string,
-    //   Birth: PropTypes.string,
-    //   Death: PropTypes.string
+    //   Name: PropTypes.string.isRequired,
+    //   Bio: PropTypes.string.isRequired,
+    //   Birth: PropTypes.string.isRequired,
+    //   Death: PropTypes.string.isRequired
     // }),
     // Genre: PropTypes.shape({
-    //   Name: PropTypes.string,
-    //   Description: PropTypes.string
+    //   Name: PropTypes.string.isRequired,
+    //   Description: PropTypes.string.isRequired
     // }),
-    // Featured: PropTypes.bool,
+    // Featured: PropTypes.bool.isRequired,
     Title: PropTypes.string.isRequired
   }).isRequired,
   onMovieClick: PropTypes.func.isRequired

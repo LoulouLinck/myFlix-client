@@ -37,19 +37,19 @@ MovieView.propTypes = {
   movie: PropTypes.shape({
     imagepath: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    releaseYear: PropTypes.string,
-    description: PropTypes.string,
+    releaseYear: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
     director: PropTypes.shape({
-      name: PropTypes.string,
-      bio: PropTypes.string,
-      birth: PropTypes.string,
-      death: PropTypes.string
+      name: PropTypes.string.isRequired,
+      bio: PropTypes.string.isRequired,
+      birth: PropTypes.string.isRequired,
+      death: PropTypes.string.isRequired
     }),
     genre: PropTypes.shape({
-      name: PropTypes.string,
-      description: PropTypes.string
+      name: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired
     }),
-    featured: PropTypes.bool
+    featured: PropTypes.bool.isRequired
   }).isRequired,
   onMovieClick: PropTypes.func.isRequired
 };
