@@ -46,7 +46,7 @@ const MovieView = ({ movie, onBackClick }) => {
       </div>
       <div>
         <span>Featured: </span>
-        <span>{movie.featured}</span>
+        <span>{movie.Featured}</span>
       </div>
 
       <button onClick={onBackClick}>Go back</button>
