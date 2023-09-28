@@ -14,7 +14,7 @@ const MainView = () => {
         console.log(data);
         const moviesFromApi = data.map((movie) => {
           return {
-            _id: movie.id, //or movie.key? why do we need this?
+            _id: movie.id, //or movie.key?
             ImagePath: movie.ImagePath,
             Title: movie.Title,
             ReleaseYear: movie.ReleaseYear,
@@ -52,6 +52,7 @@ const MainView = () => {
       {movies.map((movie) => {
         return (
           <MovieCard
+            key={movie.id}
             movie={movie}
             onMovieClick={(newSelectedMovie) => {
               setSelectedMovie(newSelectedMovie);
