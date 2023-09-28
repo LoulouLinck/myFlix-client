@@ -1,4 +1,6 @@
 import "../movie-view/movie-view.jsx";
+// Here you import the PropTypes library
+import PropTypes from "prop-types";
 
 const MovieView = ({ movie, onBackClick }) => {
   return (
@@ -28,6 +30,28 @@ const MovieView = ({ movie, onBackClick }) => {
       <button onClick={onBackClick}>Go back</button>
     </div>
   );
+};
+
+// Here is where we define all the props constraints for the MovieView
+MovieView.propTypes = {
+  movie: PropTypes.shape({
+    imagepath: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    releaseYear: PropTypes.string,
+    description: PropTypes.string,
+    director: PropTypes.shape({
+      name: PropTypes.string,
+      bio: PropTypes.string,
+      birth: PropTypes.string,
+      death: PropTypes.string
+    }),
+    genre: PropTypes.shape({
+      name: PropTypes.string,
+      description: PropTypes.string
+    }),
+    featured: PropTypes.bool
+  }).isRequired,
+  onMovieClick: PropTypes.func.isRequired
 };
 
 export default MovieView;
