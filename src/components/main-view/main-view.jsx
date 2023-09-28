@@ -1,9 +1,39 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import MovieCard from "../movie-card/movie-card";
 import MovieView from "../movie-view/movie-view";
 
 const MainView = () => {
   const [movies, setMovies] = useState([]);
+
+  useEffect(() => {
+    fetch("https://cineflix-sqlk.onrender.com/movies")
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+        const moviesFromApi = data.map((movie) => {
+          return {
+            _id: movie.id, //or movie.key? why do we need this?
+            ImagePath: movie.ImagePath,
+            Title: movie.Title,
+            ReleaseYear: movie.ReleaseYear,
+            Description: movie.Description,
+            Genre: {
+              Name: movie.Genre.Name,
+              Description: movie.Genre.Description
+            },
+            Director: {
+              Name: movie.Director.Name,
+              Bio: movie.Director.Bio,
+              Birth: movie.Director.Birth,
+              Death: movie.Director.Death
+            },
+            Featured: movie.Featured
+          };
+        });
+
+        setMovies(moviesFromApi);
+      });
+  }, []);
 
   const [selectedMovie, setSelectedMovie] = useState(null);
   if (selectedMovie) {
