@@ -55,23 +55,23 @@ const MovieView = ({ movie, onBackClick }) => {
 };
 
 // Here is where we define all the props constraints for the MovieView
-MovieView.propTypes = {
+MainView.propTypes = {
   movie: PropTypes.shape({
-    imagepath: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    releaseYear: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    director: PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      bio: PropTypes.string.isRequired,
-      birth: PropTypes.string.isRequired,
-      death: PropTypes.string.isRequired
+    Imagepath: PropTypes.string.isRequired,
+    Title: PropTypes.string.isRequired,
+    ReleaseYear: PropTypes.string,
+    Description: PropTypes.string,
+    Director: PropTypes.shape({
+      Name: PropTypes.string,
+      Bio: PropTypes.string,
+      Birth: PropTypes.string,
+      Death: PropTypes.string
     }),
-    genre: PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      description: PropTypes.string.isRequired
+    Genre: PropTypes.shape({
+      Name: PropTypes.string,
+      Description: PropTypes.string
     }),
-    featured: PropTypes.bool.isRequired
+    Featured: PropTypes.bool
   }).isRequired,
   onMovieClick: PropTypes.func.isRequired
 };
