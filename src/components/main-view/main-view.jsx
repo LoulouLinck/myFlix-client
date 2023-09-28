@@ -81,7 +81,7 @@ MainView.propTypes = {
       Name: PropTypes.string.isRequired,
       Description: PropTypes.string.isRequired
     }),
-    FSeatured: PropTypes.bool.isRequired
+    Featured: PropTypes.bool.isRequired
   }).isRequired,
   onMovieClick: PropTypes.func.isRequired
 };
