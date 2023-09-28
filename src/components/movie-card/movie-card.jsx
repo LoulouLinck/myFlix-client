@@ -1,6 +1,7 @@
 // Here you import the PropTypes library
 import PropTypes from "prop-types";
 
+// The MovieCard function component
 const MovieCard = ({ movie, onMovieClick }) => {
   return (
     <div
@@ -8,7 +9,7 @@ const MovieCard = ({ movie, onMovieClick }) => {
         onMovieClick(movie);
       }}
     >
-      {movie.title}
+      {movie.Title}
     </div>
   );
 };
