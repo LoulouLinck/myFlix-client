@@ -27231,6 +27231,14 @@ const MainView = ()=>{
         lineNumber: 41,
         columnNumber: 7
     }, undefined);
+    //if theres no movies in the array the page will say the list is empty
+    if (movies.length === 0) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: "The list is empty!"
+    }, void 0, false, {
+        fileName: "src/components/main-view/main-view.jsx",
+        lineNumber: 50,
+        columnNumber: 12
+    }, undefined);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: movies.map((movie)=>{
             return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieCardDefault.default), {
@@ -27240,13 +27248,13 @@ const MainView = ()=>{
                 }
             }, movie.id, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 52,
+                lineNumber: 57,
                 columnNumber: 11
             }, undefined);
         })
     }, void 0, false, {
         fileName: "src/components/main-view/main-view.jsx",
-        lineNumber: 49,
+        lineNumber: 54,
         columnNumber: 5
     }, undefined);
 };
