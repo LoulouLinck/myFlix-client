@@ -45,6 +45,11 @@ export const MainView = () => {
     );
   }
 
+  //if theres no movies in the array the page will say the list is empty
+  if (movies.length === 0) {
+    return <div>The list is empty!</div>;
+  }
+
   return (
     <div>
       {movies.map((movie) => {
