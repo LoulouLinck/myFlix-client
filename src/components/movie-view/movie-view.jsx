@@ -1,12 +1,10 @@
-import "../movie-view/movie-view.jsx";
-// Here you import the PropTypes library
 import PropTypes from "prop-types";
 
-const MovieView = ({ movie, onBackClick }) => {
+export const MovieView = ({ movie, onBackClick }) => {
   return (
     <div>
       <div>
-        <img src={movie.Imagepath} className="moviePoster" />
+        <img src={movie.ImagePath} className="moviePoster" />
       </div>
       <div>
         <span>Title: </span>
@@ -55,9 +53,9 @@ const MovieView = ({ movie, onBackClick }) => {
 };
 
 // Here is where we define all the props constraints for the MovieView
-MainView.propTypes = {
+MovieView.propTypes = {
   movie: PropTypes.shape({
-    Imagepath: PropTypes.string.isRequired,
+    ImagePath: PropTypes.string.isRequired,
     Title: PropTypes.string.isRequired,
     ReleaseYear: PropTypes.string,
     Description: PropTypes.string,
