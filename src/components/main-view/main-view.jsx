@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
 import MovieCard from "../movie-card/movie-card";
 import MovieView from "../movie-view/movie-view";
-// Here you import the PropTypes library
-import PropTypes from "prop-types";
 
-const MainView = () => {
+export const MainView = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -62,28 +60,6 @@ const MainView = () => {
       })}
     </div>
   );
-};
-
-// Here is where we define all the props constraints for the MovieView
-MainView.propTypes = {
-  movie: PropTypes.shape({
-    Imagepath: PropTypes.string.isRequired,
-    Title: PropTypes.string.isRequired,
-    ReleaseYear: PropTypes.string.isRequired,
-    Description: PropTypes.string.isRequired,
-    Director: PropTypes.shape({
-      Name: PropTypes.string.isRequired,
-      Bio: PropTypes.string.isRequired,
-      Birth: PropTypes.string.isRequired,
-      Death: PropTypes.string.isRequired
-    }),
-    Genre: PropTypes.shape({
-      Name: PropTypes.string.isRequired,
-      Description: PropTypes.string.isRequired
-    }),
-    Featured: PropTypes.bool.isRequired
-  }).isRequired,
-  onMovieClick: PropTypes.func.isRequired
 };
 
 export default MainView;
