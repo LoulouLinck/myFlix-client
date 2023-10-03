@@ -5,23 +5,26 @@ import { LoginView } from "../login-view/login-view";
 
 
 export const MainView = () => {
+  const storedUser = JSON.parse(localStorage.getItem("user"));
+  const storedToken = localStorage.getItem("token");
+  const [user, setUser] = useState(storedUser? storedUser : null);
+  const [token, setToken] = useState(storedToken? storedToken : null);
   const [movies, setMovies] = useState([]);
   const [selectedMovie, setSelectedMovie] = useState(null);
-  const [user, setUser] = useState(null);
-  const [token, setToken] = useState(null);
 
-  useEffect(() => {
-    if (!token) {
-      return;
-    }
-    fetch("https://cineflix-sqlk.onrender.com/movies", {
-      headers: { Authorization: `Bearer ${token}` }
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-      });
-    }, [token]);
+
+ useEffect(() => {
+   if (!token) return;
+
+   fetch("..../movies", {
+     headers: { Authorization: `Bearer ${token}` },
+   })
+     .then((response) => response.json())
+     .then((movies) => {
+       setMovies(movies);
+
+     });
+ }, [token]);
 
   //       const moviesFromApi = data.map((movie) => {
   //         return {
