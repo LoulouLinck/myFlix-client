@@ -11,34 +11,42 @@ export const MainView = () => {
   const [token, setToken] = useState(null);
 
   useEffect(() => {
-    fetch("https://cineflix-sqlk.onrender.com/movies")
+    if (!token) {
+      return;
+    }
+    fetch("https://cineflix-sqlk.onrender.com/movies", {
+      headers: { Authorization: `Bearer ${token}` }
+    })
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
-        const moviesFromApi = data.map((movie) => {
-          return {
-            _id: movie.id, //or movie.key?
-            ImagePath: movie.ImagePath,
-            Title: movie.Title,
-            ReleaseYear: movie.ReleaseYear,
-            Description: movie.Description,
-            Genre: {
-              Name: movie.Genre.Name,
-              Description: movie.Genre.Description
-            },
-            Director: {
-              Name: movie.Director.Name,
-              Bio: movie.Director.Bio,
-              Birth: movie.Director.Birth,
-              Death: movie.Director.Death
-            },
-            Featured: movie.Featured
-          };
-        });
-
-        setMovies(moviesFromApi);
       });
-  }, []);
+    }, [token]);
+
+  //       const moviesFromApi = data.map((movie) => {
+  //         return {
+  //           _id: movie.id, //or movie.key?
+  //           ImagePath: movie.ImagePath,
+  //           Title: movie.Title,
+  //           ReleaseYear: movie.ReleaseYear,
+  //           Description: movie.Description,
+  //           Genre: {
+  //             Name: movie.Genre.Name,
+  //             Description: movie.Genre.Description
+  //           },
+  //           Director: {
+  //             Name: movie.Director.Name,
+  //             Bio: movie.Director.Bio,
+  //             Birth: movie.Director.Birth,
+  //             Death: movie.Director.Death
+  //           },
+  //           Featured: movie.Featured
+  //         };
+  //       });
+
+  //       setMovies(moviesFromApi);
+  //     });
+  // }, []);
 
   if (!user) {
     return (
