@@ -6,6 +6,7 @@ import { LoginView } from "../login-view/login-view";
 
 export const MainView = () => {
   const [movies, setMovies] = useState([]);
+  const [user, setUser] = useState(null);
 
   useEffect(() => {
     fetch("https://cineflix-sqlk.onrender.com/movies")
@@ -37,7 +38,10 @@ export const MainView = () => {
       });
   }, []);
 
-  const [selectedMovie, setSelectedMovie] = useState(null);
+  if (!user) {
+    return <LoginView onLoggedIn={(user) => setUser(user)} />;
+  }
+
   if (selectedMovie) {
     return (
       <MovieView
