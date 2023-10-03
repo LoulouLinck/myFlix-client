@@ -54,14 +54,14 @@ export const MainView = () => {
 
   if (!user) {
     return (
-      <>
+      <div>
         <LoginView onLoggedIn={(user, token) => {
           setUser(user);
           setToken(token);
         }} />
         or
         <SignupView />
-      </>
+      </div>
     );
   }
 
