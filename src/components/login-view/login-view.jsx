@@ -13,8 +13,11 @@ export const LoginView = ({ onLoggedIn }) => {
       Password: password
     };
 
-    fetch("https://openlibrary.org/account/login.json", {
+    fetch("https://cineflix-sqlk.onrender.com/login", {
       method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
       body: JSON.stringify(data)
     })
       .then((response) => response.json())
