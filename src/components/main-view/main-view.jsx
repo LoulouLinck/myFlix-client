@@ -17,7 +17,7 @@ export const MainView = () => {
  useEffect(() => {
    if (!token) return;
 
-   fetch("..../movies", {
+   fetch("https://cineflix-sqlk.onrender.com/movies", {
      headers: { Authorization: `Bearer ${token}` },
    })
      .then((response) => response.json())
