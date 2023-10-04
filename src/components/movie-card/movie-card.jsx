@@ -17,14 +17,14 @@ import { Button, Card } from "react-bootstrap";
 //   );
 // };
 
-export const MovieCard = ({ movie, onBookClick }) => {
+export const MovieCard = ({ movie, onMovieClick }) => {
   return (
     <Card>
       <Card.Img variant="top" src={movie.ImagePath} />
       <Card.Body>
         <Card.Title>{movie.Title}</Card.Title>
         <Card.Text>{movie.Director.Name}, {movie.Genre.Name}, {movie.ReleaseYear}</Card.Text>
-        <Button onClick={() => onBookClick(book)} variant="link">
+        <Button onClick={() => onMovieClick(movie)} variant="link">
           Open
         </Button>
       </Card.Body>
