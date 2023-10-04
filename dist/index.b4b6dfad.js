@@ -27360,8 +27360,14 @@ const MovieCard = ({ movie, onBookClick })=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Text, {
-                        children: movie.Director
-                    }, void 0, false, {
+                        children: [
+                            movie.Director.Name,
+                            ", ",
+                            movie.Genre.Name,
+                            ", ",
+                            movie.ReleaseYear
+                        ]
+                    }, void 0, true, {
                         fileName: "src/components/movie-card/movie-card.jsx",
                         lineNumber: 26,
                         columnNumber: 9
@@ -27393,18 +27399,14 @@ _c = MovieCard;
 MovieCard.propTypes = {
     movie: (0, _propTypesDefault.default).shape({
         ImagePath: (0, _propTypesDefault.default).string.isRequired,
-        // ReleaseYear: PropTypes.string.isRequired,
+        ReleaseYear: (0, _propTypesDefault.default).string.isRequired,
         // Description: PropTypes.string.isRequired,
         Director: (0, _propTypesDefault.default).shape({
-            Name: (0, _propTypesDefault.default).string.isRequired,
-            Bio: (0, _propTypesDefault.default).string.isRequired,
-            Birth: (0, _propTypesDefault.default).string.isRequired,
-            Death: (0, _propTypesDefault.default).string.isRequired
+            Name: (0, _propTypesDefault.default).string.isRequired
         }),
-        // Genre: PropTypes.shape({
-        //   Name: PropTypes.string.isRequired,
-        //   Description: PropTypes.string.isRequired
-        // }),
+        Genre: (0, _propTypesDefault.default).shape({
+            Name: (0, _propTypesDefault.default).string.isRequired
+        }),
         // Featured: PropTypes.bool.isRequired,
         Title: (0, _propTypesDefault.default).string.isRequired
     }).isRequired,
