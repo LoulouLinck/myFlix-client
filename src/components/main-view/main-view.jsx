@@ -8,15 +8,17 @@ import { SignupView } from "../signup-view/signup-view";
 export const MainView = () => {
   const storedUser = JSON.parse(localStorage.getItem("user"));
   const storedToken = localStorage.getItem("token");
-  const [user, setUser] = useState(storedUser? storedUser : null);
-  const [token, setToken] = useState(storedToken? storedToken : null);
   const [movies, setMovies] = useState([]);
+  const [user, setUser] = useState(storedUser? storedUser : null);
+  //creates state changes for selected movies
   const [selectedMovie, setSelectedMovie] = useState(null);
+  const [token, setToken] = useState(storedToken? storedToken : null);
 
 
  useEffect(() => {
-   if (!token) return;
-
+   if (!token) {
+    return;
+   }
    fetch("https://cineflix-sqlk.onrender.com/movies", {
      headers: { Authorization: `Bearer ${token}` },
    })
@@ -47,6 +49,7 @@ export const MainView = () => {
       });
   }, [token]);
 
+  //returns login view: users have to login to use app
   if (!user) {
     return (
       <div>
@@ -60,6 +63,7 @@ export const MainView = () => {
     );
   }
 
+   //statement for selected movie: show movie view details, includes code for back button click to go to movies list
   if (selectedMovie) {
     return (
       <MovieView
@@ -69,11 +73,12 @@ export const MainView = () => {
     );
   }
 
-  //if theres no movies in the array the page will say the list is empty
+  //if no movies in the array: page says 'list is empty'
   if (movies.length === 0) {
     return <div>The list is empty!</div>;
   }
 
+   //return statement for movies in array being displayed and clickable from MovieCard file
   return (
     <div>
       <div>
