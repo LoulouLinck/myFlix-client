@@ -80,23 +80,26 @@ export const MainView = () => {
 
    //return statement for movies in array being displayed and clickable from MovieCard file
   return (
-    <div>
-      <div>
-        {movies.map((movie) => {
-        return (
+   <div>
+      {movies.map((movie) => (
           <MovieCard
-            key={movie.id}
+            key={movie.Title} //or movie.id?
             movie={movie}
             onMovieClick={(newSelectedMovie) => {
               setSelectedMovie(newSelectedMovie);
             }}
           />
-        );
-      })}
-    </div>
-    <button onClick={() => { setUser(null); setToken(null); localStorage.clear();
-        }}>Logout</button>
-      </div>
+      ))}
+       <button 
+          onClick={() => { 
+            setUser(null); 
+            setToken(null); 
+            localStorage.clear();
+        }}
+      >
+        Logout
+      </button>
+  </div>
   );
 };
 
