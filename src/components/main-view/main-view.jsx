@@ -100,4 +100,4 @@ export const MainView = () => {
   );
 };
 
-export default MainView;
+export default MovieCard;
