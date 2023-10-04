@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export const MovieView = ({ movie, onBackClick }) => {
   return (
