@@ -27197,11 +27197,41 @@ var _signupView = require("../signup-view/signup-view");
 var _s = $RefreshSig$();
 const MainView = ()=>{
     _s();
+<<<<<<< HEAD
     const storedUser = JSON.parse(localStorage.getItem("user"));
     const storedToken = localStorage.getItem("token");
     const [movies, setMovies] = (0, _react.useState)([]);
     const [user, setUser] = (0, _react.useState)(storedUser ? storedUser : null);
     //creates state changes for selected movies
+=======
+    const [movies, setMovies] = (0, _react.useState)([]);
+    (0, _react.useEffect)(()=>{
+        fetch("https://cineflix-sqlk.onrender.com/movies").then((response)=>response.json()).then((data)=>{
+            console.log(data);
+            const moviesFromApi = data.map((movie)=>{
+                return {
+                    _id: movie.id,
+                    ImagePath: movie.ImagePath,
+                    Title: movie.Title,
+                    ReleaseYear: movie.ReleaseYear,
+                    Description: movie.Description,
+                    Genre: {
+                        Name: movie.Genre.Name,
+                        Description: movie.Genre.Description
+                    },
+                    Director: {
+                        Name: movie.Director.Name,
+                        Bio: movie.Director.Bio,
+                        Birth: movie.Director.Birth,
+                        Death: movie.Director.Death
+                    },
+                    Featured: movie.Featured
+                };
+            });
+            setMovies(moviesFromApi);
+        });
+    }, []);
+>>>>>>> main
     const [selectedMovie, setSelectedMovie] = (0, _react.useState)(null);
     const [token, setToken] = (0, _react.useState)(storedToken ? storedToken : null);
     (0, _react.useEffect)(()=>{
@@ -27268,6 +27298,7 @@ const MainView = ()=>{
         onBackClick: ()=>setSelectedMovie(null)
     }, void 0, false, {
         fileName: "src/components/main-view/main-view.jsx",
+<<<<<<< HEAD
         lineNumber: 69,
         columnNumber: 7
     }, undefined);
@@ -27312,6 +27343,39 @@ const MainView = ()=>{
     }, undefined);
 };
 _s(MainView, "yZHt2xd/gN6KJIfYJ8fVRzoMkyg=");
+=======
+        lineNumber: 41,
+        columnNumber: 7
+    }, undefined);
+    //if theres no movies in the array the page will say the list is empty
+    if (movies.length === 0) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: "The list is empty!"
+    }, void 0, false, {
+        fileName: "src/components/main-view/main-view.jsx",
+        lineNumber: 50,
+        columnNumber: 12
+    }, undefined);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: movies.map((movie)=>{
+            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieCardDefault.default), {
+                movie: movie,
+                onMovieClick: (newSelectedMovie)=>{
+                    setSelectedMovie(newSelectedMovie);
+                }
+            }, movie.id, false, {
+                fileName: "src/components/main-view/main-view.jsx",
+                lineNumber: 57,
+                columnNumber: 11
+            }, undefined);
+        })
+    }, void 0, false, {
+        fileName: "src/components/main-view/main-view.jsx",
+        lineNumber: 54,
+        columnNumber: 5
+    }, undefined);
+};
+_s(MainView, "llzgrUkvR/+OoCNfiqlA1H2LLFI=");
+>>>>>>> main
 _c = MainView;
 exports.default = MainView;
 var _c;
@@ -28590,6 +28654,7 @@ $RefreshReg$(_c, "MovieView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
+<<<<<<< HEAD
 },{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"dsfJ7","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4KyYR"}],"9YtA0":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$9fee = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
@@ -28852,5 +28917,8 @@ $RefreshReg$(_c, "SignupView");
   window.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"dsfJ7","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4KyYR"}]},["izQUY","dbjzX","d8Dch"], "d8Dch", "parcelRequireaec4")
+=======
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"dsfJ7","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4KyYR"}]},["izQUY","dbjzX","d8Dch"], "d8Dch", "parcelRequireaec4")
+>>>>>>> main
 
 //# sourceMappingURL=index.b4b6dfad.js.map
