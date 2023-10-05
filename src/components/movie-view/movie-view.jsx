@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import "./movie-view.scss";
 
 
@@ -7,7 +7,7 @@ export const MovieView = ({ movie, onBackClick }) => {
   return (
     <div>
       {/* <div>
-        <img src={movie.ImagePath} className="moviePoster" />
+        <img src={movie.ImagePath} className="w-100" />
       </div> */}
       <div>
         <span>Title: </span>
