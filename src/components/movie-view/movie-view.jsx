@@ -1,13 +1,14 @@
 import PropTypes from "prop-types";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./movie-view.scss"
+import "./movie-view.scss";
+
 
 export const MovieView = ({ movie, onBackClick }) => {
   return (
     <div>
-      <div>
+      {/* <div>
         <img src={movie.ImagePath} className="moviePoster" />
-      </div>
+      </div> */}
       <div>
         <span>Title: </span>
         <span>{movie.Title}</span>
@@ -57,7 +58,7 @@ export const MovieView = ({ movie, onBackClick }) => {
 // Here is where we define all the props constraints for the MovieView
 MovieView.propTypes = {
   movie: PropTypes.shape({
-    ImagePath: PropTypes.string.isRequired,
+    // ImagePath: PropTypes.string.isRequired,
     Title: PropTypes.string.isRequired,
     ReleaseYear: PropTypes.string,
     Description: PropTypes.string,
