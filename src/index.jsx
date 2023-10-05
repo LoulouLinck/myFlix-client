@@ -4,13 +4,16 @@ import { createRoot } from 'react-dom/client';
 import "./index.scss";
 import MainView from "./components/main-view/main-view";
 
+
+import Container from "react-bootstrap/Container";
+
 // Main component (will eventually use all the others)
 const MyFlixApplication = () => {
   return (
-    <div className="CineFlix">
-      <div>Welcome to my movie club!</div>
+    <Container>
+      {/* <div>Welcome to my movie club!</div> */}
       <MainView />
-    </div>
+    </Container>
   );
 };
 
