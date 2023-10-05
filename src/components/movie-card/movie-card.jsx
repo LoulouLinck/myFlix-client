@@ -1,8 +1,7 @@
-import React from "react";
+// import React from "react";
 // Here you import the PropTypes library
 import PropTypes from "prop-types";
 import { Button, Card } from "react-bootstrap";
-
 
 // The MovieCard function component
 
