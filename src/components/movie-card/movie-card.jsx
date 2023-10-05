@@ -3,6 +3,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Button, Card } from "react-bootstrap";
 
+
 // The MovieCard function component
 
 // const MovieCard = ({ movie, onMovieClick }) => {
@@ -19,8 +20,8 @@ import { Button, Card } from "react-bootstrap";
 
 export const MovieCard = ({ movie, onMovieClick }) => {
   return (
-    <Card>
-      <Card.Img variant="top" src={movie.ImagePath} />
+    <Card className="h-100" onClick={() => onMovieClick(movie)}>
+      {/* <Card.Img variant="top" src={movie.ImagePath} /> */}
       <Card.Body>
         <Card.Title>{movie.Title}</Card.Title>
         <Card.Text>{movie.Director.Name}, {movie.Genre.Name}, {movie.ReleaseYear}</Card.Text>
@@ -36,7 +37,7 @@ export const MovieCard = ({ movie, onMovieClick }) => {
 // Here is where we define all the props constraints for the BookCard
 MovieCard.propTypes = {
   movie: PropTypes.shape({
-    ImagePath: PropTypes.string.isRequired,
+    // ImagePath: PropTypes.string.isRequired,
     ReleaseYear: PropTypes.string.isRequired,
     // Description: PropTypes.string.isRequired,
     Director: PropTypes.shape({
