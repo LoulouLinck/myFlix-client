@@ -12,6 +12,11 @@ export const ProfileView = ({ user, token, setUser, movies }) => {
   let favouriteMovies = movies.filter((movie) => {
     return user.FavouriteMovies.includes(movie.id); //or _id/Title?
   });
+
+  let result = movies.filter((movie) =>
+    user.FavouriteMovies.includes(movie.id)
+  );
+
   const handleShowModal = () => setShowModal(true);
   const handleCloseModal = () => setShowModal(false);
 
