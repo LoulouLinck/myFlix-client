@@ -43,6 +43,7 @@ export const MovieCard = ({ movie, user, token, setUser }) => {
       .then((user) => {
         if (user) {
           alert("successfully added to favourites");
+          localStorage.setItem("user", JSON.stringify(user)); // updating user on local storage
           setUser(user); // updating the react application
           setIsFavourite(true);
           // updatedUser(user);
@@ -71,6 +72,7 @@ export const MovieCard = ({ movie, user, token, setUser }) => {
       .then((user) => {
         if (user) {
           alert("successfully deleted from favorites");
+          localStorage.setItem("user", JSON.stringify(user)); // updating user on local storage
           setUser(user); // updating the react application
           setIsFavourite(false);
         }
