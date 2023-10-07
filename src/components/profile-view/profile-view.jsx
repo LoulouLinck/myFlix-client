@@ -168,6 +168,17 @@ export const ProfileView = ({ user, token, setUser, movies }) => {
           </Button>
         </Modal.Footer>
       </Modal>
+
+      {/* <Row className="favourite-movies">
+        <Col>
+          <h2>Favourite movies:</h2>
+          {FavouriteMovies.map((movie) => (
+            <Col key={movie._id} md={4}>
+              <MovieCard movie={movie}></MovieCard>
+            </Col>
+          ))}
+        </Col>
+      </Row> */}
     </>
   );
 };
