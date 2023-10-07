@@ -1,26 +1,100 @@
-# myFlix-Client
+# 📖 myFlix-Client
+
+> myFlix is a client-side app that connects with a movie database and allow user to find information about movies and bookmark them in a personal list.
 
 ## Objective
 Using React, build the client-side for an app called myFlix based on its existing server-side code (REST API and database).
 
-## Getting Started
-TECH STACK
-<br>
--React
-<br>
--JSX
-<br>
--Parcel (build tool)
+<!-- **Link to myFlix App:** https://... -->
+
+## 🛠 Built With
+
+### Tech Stack
+MERN
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>MongoDB</li>
+    <li>Express</li>
+    <li>React</li>
+    <li>Node.js</li>
+    <li>Parcel (build tool)</li>
+    <li>JSX</li>
+    <li>Vanilla JS</li>
+    <li>HTML</li>
+    <li>CSS</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://pokeapi.co/">MongoDB Atlas Database</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Libraries</summary>
+  <ul>
+    <li><a href="https://"></a></li> 
+    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+  </ul>
+</details>
+
+<!-- <details>
+  <summary></summary>
+  <ul>
+    <li><a href="https://"></a></li> 
+    <li><a href=""></a></li>
+  </ul>
+</details> -->
+
+ <!-- Features -->
+
+### Key Features 
+ 
+- **Filtering the list of movies with a “search” feature**
+- **Ability to select a movie for more details**
+- **Allows users to add a movie to their list of favorites**
+
 <br>
 
-## Development Environment
+<!-- ![](./img/....png)
 <br>
--npm init --yes
+![](./img/....png) -->
+
+### Responsive Layout & Accessibility
+
+The app was tested to suit a wide spectrum of devices and with accessibility in mind.
+<!-- <br>
+Components incuding the modal and navigation bar are accessible to screen readers.
+<br> -->
+For a clean and usable design Bootstrap was implemented to the app. Thanks to this framework the layout of the library is set with optimal responsivity for a pleasant experience regardless of screen size.
+
+## Credits
+
+<!-- [Flavicon](https://) was used for logos  -->
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started 
+
+- npm init --yes
 <br>
--npm install -g parcel
+- npm install -g parcel
 <br>
--npm install -save react react-dom
+- npm install -save react react-dom
 <br>
--create a 'src' folder in project directory with three files: 'index.jsx', 'index.scss', 'index.html'
+- create a 'src' folder in project directory with three files: 'index.jsx', 'index.scss', 'index.html'
 <br>
-run command 'parcel src/index.html' in terminal to prompt parcel build process
+- run command 'parcel src/index.html' in terminal to prompt parcel build process
+
+## 👥 Author <a name="authors"></a>
+
+**Laure Lincker**
+
+- GitHub: [@LoulouLinck](https://github.com/LoulouLinck)
+
+This was a solo project guided by tutors and mentors from <a href="https://careerfoundry.com/en/courses/become-a-web-developer/">CareerFoundry.</a>
