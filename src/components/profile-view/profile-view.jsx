@@ -136,6 +136,22 @@ export const ProfileView = ({ user, token, setUser, movies }) => {
         </Col>
       </Row>
 
+      <Row>
+        <Col>
+          <h3 className="favourite-title">Favourite movies:</h3>
+        </Col>
+      </Row>
+      <Row>
+        {result.map((movie) => (
+          <Col className="mb-5" key={movie.id} md={4}>
+            <MovieCard
+              movie={movie}
+              user={user}
+            ></MovieCard>
+          </Col>
+        ))}
+      </Row>
+
       <Modal show={showModal} onHide={handleCloseModal}>
         <Modal.Header closeButton>
           <Modal.Title>Delete account</Modal.Title>
