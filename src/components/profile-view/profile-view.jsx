@@ -147,6 +147,8 @@ export const ProfileView = ({ user, token, setUser, movies }) => {
             <MovieCard
               movie={movie}
               user={user}
+              token={token}
+              setUser={setUser}
             ></MovieCard>
           </Col>
         ))}
