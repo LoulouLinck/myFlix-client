@@ -130,6 +130,7 @@ export const MainView = () => {
           />
 
                           movie={movie}
+                          user={user}
                           token={token}
                         />
                       </Col>
