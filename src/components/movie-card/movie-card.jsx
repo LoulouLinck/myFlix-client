@@ -1,7 +1,9 @@
-// import React from "react";
+import React from "react";
+import { useState } from "react";
 // Here you import the PropTypes library
 import PropTypes from "prop-types";
 import { Button, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 // The MovieCard function component
 
@@ -17,21 +19,97 @@ import { Button, Card } from "react-bootstrap";
 //   );
 // };
 
-export const MovieCard = ({ movie, onMovieClick }) => {
+export const MovieCard = ({ movie, user, token, setUser }) => {
+  const [isFavourite, setIsFavourite] = useState(
+  );
+
+  const addFavouriteMovie = () => {
+    fetch(
+      `https://cineflix-sqlk.onrender.com/users/${user.Username}/movies/${movie.id}`,
+      {
+        method: "POST",
+        headers: { Authorization: `Bearer ${token}` }
+      }
+    )
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          alert("Failed");
+          return false;
+        }
+      })
+      .then((user) => {
+        if (user) {
+          alert("successfully added to favourites");
+          setUser(user); // updating the react application
+          setIsFavourite(true);
+          // updatedUser(user);
+        }
+      })
+      .catch((e) => {
+        alert(e);
+      });
+  };
+  const removeFavouriteMovie = () => {
+    fetch(
+      `https://cineflix-sqlk.onrender.com/users/${user.Username}/movies/${movie.id}`,
+      {
+        method: "DELETE",
+        headers: { Authorization: `Bearer ${token}` }
+      }
+    )
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          alert("Failed");
+          return false;
+        }
+      })
+      .then((user) => {
+        if (user) {
+          alert("successfully deleted from favorites");
+          setUser(user); // updating the react application
+          setIsFavourite(false);
+        }
+      })
+      .catch((e) => {
+        alert(e);
+      });
+  };
+
   return (
-    <Card className="h-100" onClick={() => onMovieClick(movie)}>
-      {/* <Card.Img variant="top" src={movie.ImagePath} /> */}
-      <Card.Body>
+    <div>
+      <Card className="h-100">
         <Card.Title>{movie.Title}</Card.Title>
-        <Card.Text>{movie.Director.Name}, {movie.Genre.Name}, {movie.ReleaseYear}</Card.Text>
-        <Button onClick={() => onMovieClick(movie)} variant="link">
-          Open
-        </Button>
-      </Card.Body>
-    </Card>
+        {/* <Card.Img  className='w-100' variant="top" src={movie.ImagePath} /> */}
+        <Card.Body>
+          <Card.Text>
+            {movie.Director.Name}, {movie.Genre.Name}, {movie.ReleaseYear}
+          </Card.Text>
+        </Card.Body>
+
+        <Card.Footer>
+          <Link to={`/movies/${movie.id}`}>
+            <Button className="info-button" variant="light">
+              More Info
+            </Button>
+          </Link>
+          {isFavourite ? (
+            <Button variant="danger" onClick={removeFavouriteMovie}>
+              Remove from favourite
+            </Button>
+          ) : (
+            <Button variant="primary" onClick={addFavouriteMovie}>
+              Add to favourite
+            </Button>
+          )}
+        </Card.Footer>
+      </Card>
+    </div>
   );
 };
-
 
 // Here is where we define all the props constraints for the BookCard
 MovieCard.propTypes = {
@@ -40,19 +118,18 @@ MovieCard.propTypes = {
     ReleaseYear: PropTypes.string.isRequired,
     // Description: PropTypes.string.isRequired,
     Director: PropTypes.shape({
-      Name: PropTypes.string.isRequired,
+      Name: PropTypes.string.isRequired
       // Bio: PropTypes.string.isRequired,
       // Birth: PropTypes.string.isRequired,
       // Death: PropTypes.string.isRequired
     }),
     Genre: PropTypes.shape({
-      Name: PropTypes.string.isRequired,
-    //   Description: PropTypes.string.isRequired
+      Name: PropTypes.string.isRequired
+      //   Description: PropTypes.string.isRequired
     }),
     // Featured: PropTypes.bool.isRequired,
     Title: PropTypes.string.isRequired
-  }).isRequired,
-  onMovieClick: PropTypes.func.isRequired
+  }).isRequired
 };
 
 export default MovieCard;
