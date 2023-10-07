@@ -21,6 +21,7 @@ import { Link } from "react-router-dom";
 
 export const MovieCard = ({ movie, user, token, setUser }) => {
   const [isFavourite, setIsFavourite] = useState(
+    user.FavouriteMovies.includes(movie.id)
   );
 
   const addFavouriteMovie = () => {
