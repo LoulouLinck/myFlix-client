@@ -1,5 +1,7 @@
 import PropTypes from "prop-types";
-// import "bootstrap/dist/css/bootstrap.min.css";
+import { useParams } from "react-router";
+import { Link } from "react-router-dom";
+import { Button, Row, Col } from "react-bootstrap";
 import "./movie-view.scss";
 
 
