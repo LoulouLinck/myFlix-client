@@ -10,6 +10,13 @@ img {
   width: 100%;
 }
 
+<<<<<<< Updated upstream
+=======
+.my-flix {
+  color: #4682b4;
+}
+
+>>>>>>> Stashed changes
 :root, [data-bs-theme="light"] {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -34,7 +41,11 @@ img {
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
+<<<<<<< Updated upstream
   --bs-primary: #0d6efd;
+=======
+  --bs-primary: MediumPurple;
+>>>>>>> Stashed changes
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -42,7 +53,11 @@ img {
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+<<<<<<< Updated upstream
   --bs-primary-rgb: 13, 110, 253;
+=======
+  --bs-primary-rgb: 147, 112, 219;
+>>>>>>> Stashed changes
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -50,7 +65,11 @@ img {
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
+<<<<<<< Updated upstream
   --bs-primary-text-emphasis: #052c65;
+=======
+  --bs-primary-text-emphasis: #3b2d58;
+>>>>>>> Stashed changes
   --bs-secondary-text-emphasis: #2b2f32;
   --bs-success-text-emphasis: #0a3622;
   --bs-info-text-emphasis: #055160;
@@ -58,7 +77,11 @@ img {
   --bs-danger-text-emphasis: #58151c;
   --bs-light-text-emphasis: #495057;
   --bs-dark-text-emphasis: #495057;
+<<<<<<< Updated upstream
   --bs-primary-bg-subtle: #cfe2ff;
+=======
+  --bs-primary-bg-subtle: #e9e2f8;
+>>>>>>> Stashed changes
   --bs-secondary-bg-subtle: #e2e3e5;
   --bs-success-bg-subtle: #d1e7dd;
   --bs-info-bg-subtle: #cff4fc;
@@ -66,7 +89,11 @@ img {
   --bs-danger-bg-subtle: #f8d7da;
   --bs-light-bg-subtle: #fcfcfd;
   --bs-dark-bg-subtle: #ced4da;
+<<<<<<< Updated upstream
   --bs-primary-border-subtle: #9ec5fe;
+=======
+  --bs-primary-border-subtle: #d4c6f1;
+>>>>>>> Stashed changes
   --bs-secondary-border-subtle: #c4c8cb;
   --bs-success-border-subtle: #a3cfbb;
   --bs-info-border-subtle: #9eeaf9;
@@ -85,8 +112,13 @@ img {
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-color-rgb: 33, 37, 41;
+<<<<<<< Updated upstream
   --bs-body-bg: #fff;
   --bs-body-bg-rgb: 255, 255, 255;
+=======
+  --bs-body-bg: Lavender;
+  --bs-body-bg-rgb: 230, 230, 250;
+>>>>>>> Stashed changes
   --bs-emphasis-color: #000;
   --bs-emphasis-color-rgb: 0, 0, 0;
   --bs-secondary-color: #212529bf;
@@ -98,11 +130,19 @@ img {
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: inherit;
+<<<<<<< Updated upstream
   --bs-link-color: #0d6efd;
   --bs-link-color-rgb: 13, 110, 253;
   --bs-link-decoration: underline;
   --bs-link-hover-color: #0a58ca;
   --bs-link-hover-color-rgb: 10, 88, 202;
+=======
+  --bs-link-color: MediumPurple;
+  --bs-link-color-rgb: 147, 112, 219;
+  --bs-link-decoration: underline;
+  --bs-link-hover-color: #765aaf;
+  --bs-link-hover-color-rgb: 118, 90, 175;
+>>>>>>> Stashed changes
   --bs-code-color: #d63384;
   --bs-highlight-color: #212529;
   --bs-highlight-bg: #fff3cd;
@@ -123,7 +163,11 @@ img {
   --bs-box-shadow-inset: inset 0 1px 2px #00000013;
   --bs-focus-ring-width: .25rem;
   --bs-focus-ring-opacity: .25;
+<<<<<<< Updated upstream
   --bs-focus-ring-color: #0d6efd40;
+=======
+  --bs-focus-ring-color: #9370db40;
+>>>>>>> Stashed changes
   --bs-form-valid-color: #198754;
   --bs-form-valid-border-color: #198754;
   --bs-form-invalid-color: #dc3545;
@@ -146,7 +190,11 @@ img {
   --bs-tertiary-color-rgb: 222, 226, 230;
   --bs-tertiary-bg: #2b3035;
   --bs-tertiary-bg-rgb: 43, 48, 53;
+<<<<<<< Updated upstream
   --bs-primary-text-emphasis: #6ea8fe;
+=======
+  --bs-primary-text-emphasis: #bea9e9;
+>>>>>>> Stashed changes
   --bs-secondary-text-emphasis: #a7acb1;
   --bs-success-text-emphasis: #75b798;
   --bs-info-text-emphasis: #6edff6;
@@ -154,7 +202,11 @@ img {
   --bs-danger-text-emphasis: #ea868f;
   --bs-light-text-emphasis: #f8f9fa;
   --bs-dark-text-emphasis: #dee2e6;
+<<<<<<< Updated upstream
   --bs-primary-bg-subtle: #031633;
+=======
+  --bs-primary-bg-subtle: #1d162c;
+>>>>>>> Stashed changes
   --bs-secondary-bg-subtle: #161719;
   --bs-success-bg-subtle: #051b11;
   --bs-info-bg-subtle: #032830;
@@ -162,7 +214,11 @@ img {
   --bs-danger-bg-subtle: #2c0b0e;
   --bs-light-bg-subtle: #343a40;
   --bs-dark-bg-subtle: #1a1d20;
+<<<<<<< Updated upstream
   --bs-primary-border-subtle: #084298;
+=======
+  --bs-primary-border-subtle: #584383;
+>>>>>>> Stashed changes
   --bs-secondary-border-subtle: #41464b;
   --bs-success-border-subtle: #0f5132;
   --bs-info-border-subtle: #087990;
@@ -171,10 +227,17 @@ img {
   --bs-light-border-subtle: #495057;
   --bs-dark-border-subtle: #343a40;
   --bs-heading-color: inherit;
+<<<<<<< Updated upstream
   --bs-link-color: #6ea8fe;
   --bs-link-hover-color: #8bb9fe;
   --bs-link-color-rgb: 110, 168, 254;
   --bs-link-hover-color-rgb: 139, 185, 254;
+=======
+  --bs-link-color: #bea9e9;
+  --bs-link-hover-color: #cbbaed;
+  --bs-link-color-rgb: 190, 169, 233;
+  --bs-link-hover-color-rgb: 203, 186, 237;
+>>>>>>> Stashed changes
   --bs-code-color: #e685b5;
   --bs-highlight-color: #dee2e6;
   --bs-highlight-bg: #664d03;
@@ -186,7 +249,11 @@ img {
   --bs-form-invalid-border-color: #ea868f;
 }
 
+<<<<<<< Updated upstream
 *, :after, :before {
+=======
+*, :before, :after {
+>>>>>>> Stashed changes
   box-sizing: border-box;
 }
 
@@ -205,7 +272,11 @@ body {
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
+<<<<<<< Updated upstream
   -webkit-tap-highlight-color: transparent;
+=======
+  -webkit-tap-highlight-color: #0000;
+>>>>>>> Stashed changes
   margin: 0;
 }
 
@@ -217,7 +288,11 @@ hr {
   margin: 1rem 0;
 }
 
+<<<<<<< Updated upstream
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+=======
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+>>>>>>> Stashed changes
   color: var(--bs-heading-color);
   margin-top: 0;
   margin-bottom: .5rem;
@@ -225,51 +300,91 @@ hr {
   line-height: 1.2;
 }
 
+<<<<<<< Updated upstream
 .h1, h1 {
+=======
+h1, .h1 {
+>>>>>>> Stashed changes
   font-size: calc(1.375rem + 1.5vw);
 }
 
 @media (width >= 1200px) {
+<<<<<<< Updated upstream
   .h1, h1 {
+=======
+  h1, .h1 {
+>>>>>>> Stashed changes
     font-size: 2.5rem;
   }
 }
 
+<<<<<<< Updated upstream
 .h2, h2 {
+=======
+h2, .h2 {
+>>>>>>> Stashed changes
   font-size: calc(1.325rem + .9vw);
 }
 
 @media (width >= 1200px) {
+<<<<<<< Updated upstream
   .h2, h2 {
+=======
+  h2, .h2 {
+>>>>>>> Stashed changes
     font-size: 2rem;
   }
 }
 
+<<<<<<< Updated upstream
 .h3, h3 {
+=======
+h3, .h3 {
+>>>>>>> Stashed changes
   font-size: calc(1.3rem + .6vw);
 }
 
 @media (width >= 1200px) {
+<<<<<<< Updated upstream
   .h3, h3 {
+=======
+  h3, .h3 {
+>>>>>>> Stashed changes
     font-size: 1.75rem;
   }
 }
 
+<<<<<<< Updated upstream
 .h4, h4 {
+=======
+h4, .h4 {
+>>>>>>> Stashed changes
   font-size: calc(1.275rem + .3vw);
 }
 
 @media (width >= 1200px) {
+<<<<<<< Updated upstream
   .h4, h4 {
+=======
+  h4, .h4 {
+>>>>>>> Stashed changes
     font-size: 1.5rem;
   }
 }
 
+<<<<<<< Updated upstream
 .h5, h5 {
   font-size: 1.25rem;
 }
 
 .h6, h6 {
+=======
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+>>>>>>> Stashed changes
   font-size: 1rem;
 }
 
@@ -295,12 +410,20 @@ ol, ul {
   padding-left: 2rem;
 }
 
+<<<<<<< Updated upstream
 dl, ol, ul {
+=======
+ol, ul, dl {
+>>>>>>> Stashed changes
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
+<<<<<<< Updated upstream
 ol ol, ol ul, ul ol, ul ul {
+=======
+ol ol, ul ul, ol ul, ul ol {
+>>>>>>> Stashed changes
   margin-bottom: 0;
 }
 
@@ -321,11 +444,19 @@ b, strong {
   font-weight: bolder;
 }
 
+<<<<<<< Updated upstream
 .small, small {
   font-size: .875em;
 }
 
 .mark, mark {
+=======
+small, .small {
+  font-size: .875em;
+}
+
+mark, .mark {
+>>>>>>> Stashed changes
   color: var(--bs-highlight-color);
   background-color: var(--bs-highlight-bg);
   padding: .1875em;
@@ -360,7 +491,11 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+<<<<<<< Updated upstream
 code, kbd, pre, samp {
+=======
+pre, code, kbd, samp {
+>>>>>>> Stashed changes
   font-family: var(--bs-font-monospace);
   font-size: 1em;
 }
@@ -427,7 +562,11 @@ th {
   text-align: -webkit-match-parent;
 }
 
+<<<<<<< Updated upstream
 tbody, td, tfoot, th, thead, tr {
+=======
+thead, tbody, tfoot, tr, td, th {
+>>>>>>> Stashed changes
   border-color: inherit;
   border-style: solid;
   border-width: 0;
@@ -445,7 +584,11 @@ button:focus:not(:focus-visible) {
   outline: 0;
 }
 
+<<<<<<< Updated upstream
 button, input, optgroup, select, textarea {
+=======
+input, button, select, optgroup, textarea {
+>>>>>>> Stashed changes
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -472,11 +615,19 @@ select:disabled {
   display: none !important;
 }
 
+<<<<<<< Updated upstream
 [type="button"], [type="reset"], [type="submit"], button {
   -webkit-appearance: button;
 }
 
 [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+=======
+button, [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+}
+
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+>>>>>>> Stashed changes
   cursor: pointer;
 }
 
@@ -515,15 +666,22 @@ legend + * {
   clear: left;
 }
 
+<<<<<<< Updated upstream
 ::-webkit-datetime-edit-day-field {
   padding: 0;
 }
 
+=======
+>>>>>>> Stashed changes
 ::-webkit-datetime-edit-fields-wrapper {
   padding: 0;
 }
 
+<<<<<<< Updated upstream
 ::-webkit-datetime-edit-hour-field {
+=======
+::-webkit-datetime-edit-text {
+>>>>>>> Stashed changes
   padding: 0;
 }
 
@@ -531,11 +689,23 @@ legend + * {
   padding: 0;
 }
 
+<<<<<<< Updated upstream
 ::-webkit-datetime-edit-month-field {
   padding: 0;
 }
 
 ::-webkit-datetime-edit-text {
+=======
+::-webkit-datetime-edit-hour-field {
+  padding: 0;
+}
+
+::-webkit-datetime-edit-day-field {
+  padding: 0;
+}
+
+::-webkit-datetime-edit-month-field {
+>>>>>>> Stashed changes
   padding: 0;
 }
 
@@ -729,7 +899,11 @@ progress {
   font-size: .875em;
 }
 
+<<<<<<< Updated upstream
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+=======
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+>>>>>>> Stashed changes
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   padding-right: calc(var(--bs-gutter-x) * .5);
@@ -740,31 +914,51 @@ progress {
 }
 
 @media (width >= 576px) {
+<<<<<<< Updated upstream
   .container, .container-sm {
+=======
+  .container-sm, .container {
+>>>>>>> Stashed changes
     max-width: 540px;
   }
 }
 
 @media (width >= 768px) {
+<<<<<<< Updated upstream
   .container, .container-md, .container-sm {
+=======
+  .container-md, .container-sm, .container {
+>>>>>>> Stashed changes
     max-width: 720px;
   }
 }
 
 @media (width >= 992px) {
+<<<<<<< Updated upstream
   .container, .container-lg, .container-md, .container-sm {
+=======
+  .container-lg, .container-md, .container-sm, .container {
+>>>>>>> Stashed changes
     max-width: 960px;
   }
 }
 
 @media (width >= 1200px) {
+<<<<<<< Updated upstream
   .container, .container-lg, .container-md, .container-sm, .container-xl {
+=======
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+>>>>>>> Stashed changes
     max-width: 1140px;
   }
 }
 
 @media (width >= 1400px) {
+<<<<<<< Updated upstream
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+=======
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+>>>>>>> Stashed changes
     max-width: 1320px;
   }
 }
@@ -2085,6 +2279,7 @@ progress {
 
 .table-primary {
   --bs-table-color: #000;
+<<<<<<< Updated upstream
   --bs-table-bg: #cfe2ff;
   --bs-table-border-color: #a6b5cc;
   --bs-table-striped-bg: #c5d7f2;
@@ -2092,6 +2287,15 @@ progress {
   --bs-table-active-bg: #bacbe6;
   --bs-table-active-color: #000;
   --bs-table-hover-bg: #bfd1ec;
+=======
+  --bs-table-bg: #e9e2f8;
+  --bs-table-border-color: #bab5c6;
+  --bs-table-striped-bg: #ddd7ec;
+  --bs-table-striped-color: #000;
+  --bs-table-active-bg: #d2cbdf;
+  --bs-table-active-color: #000;
+  --bs-table-hover-bg: #d8d1e5;
+>>>>>>> Stashed changes
   --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -2298,9 +2502,15 @@ progress {
 .form-control:focus {
   color: var(--bs-body-color);
   background-color: var(--bs-body-bg);
+<<<<<<< Updated upstream
   border-color: #86b7fe;
   outline: 0;
   box-shadow: 0 0 0 .25rem #0d6efd40;
+=======
+  border-color: #c9b8ed;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem #9370db40;
+>>>>>>> Stashed changes
 }
 
 .form-control::-webkit-date-and-time-value {
@@ -2324,6 +2534,7 @@ progress {
   opacity: 1;
 }
 
+<<<<<<< Updated upstream
 .form-control::-webkit-file-upload-button {
   -webkit-margin-end: .75rem;
   margin: -.375rem -.75rem;
@@ -2342,6 +2553,10 @@ progress {
 
 .form-control::file-selector-button {
   -webkit-margin-end: .75rem;
+=======
+.form-control::file-selector-button {
+  margin: -.375rem -.75rem;
+>>>>>>> Stashed changes
   color: var(--bs-body-color);
   background-color: var(--bs-tertiary-bg);
   pointer-events: none;
@@ -2350,7 +2565,10 @@ progress {
   border-width: 0;
   border-inline-end-width: var(--bs-border-width);
   border-radius: 0;
+<<<<<<< Updated upstream
   margin: -.375rem -.75rem;
+=======
+>>>>>>> Stashed changes
   margin-inline-end: .75rem;
   padding: .375rem .75rem;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
@@ -2362,10 +2580,13 @@ progress {
   }
 }
 
+<<<<<<< Updated upstream
 .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
   background-color: var(--bs-secondary-bg);
 }
 
+=======
+>>>>>>> Stashed changes
 .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
   background-color: var(--bs-secondary-bg);
 }
@@ -2386,7 +2607,11 @@ progress {
   outline: 0;
 }
 
+<<<<<<< Updated upstream
 .form-control-plaintext.form-control-lg, .form-control-plaintext.form-control-sm {
+=======
+.form-control-plaintext.form-control-sm, .form-control-plaintext.form-control-lg {
+>>>>>>> Stashed changes
   padding-left: 0;
   padding-right: 0;
 }
@@ -2399,7 +2624,10 @@ progress {
 }
 
 .form-control-sm::file-selector-button {
+<<<<<<< Updated upstream
   -webkit-margin-end: .5rem;
+=======
+>>>>>>> Stashed changes
   margin: -.25rem -.5rem;
   margin-inline-end: .5rem;
   padding: .25rem .5rem;
@@ -2413,7 +2641,10 @@ progress {
 }
 
 .form-control-lg::file-selector-button {
+<<<<<<< Updated upstream
   -webkit-margin-end: 1rem;
+=======
+>>>>>>> Stashed changes
   margin: -.5rem -1rem;
   margin-inline-end: 1rem;
   padding: .5rem 1rem;
@@ -2486,9 +2717,15 @@ textarea.form-control-lg {
 }
 
 .form-select:focus {
+<<<<<<< Updated upstream
   border-color: #86b7fe;
   outline: 0;
   box-shadow: 0 0 0 .25rem #0d6efd40;
+=======
+  border-color: #c9b8ed;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem #9370db40;
+>>>>>>> Stashed changes
 }
 
 .form-select[multiple], .form-select[size]:not([size="1"]) {
@@ -2556,8 +2793,11 @@ textarea.form-control-lg {
   background-color: var(--bs-form-check-bg);
   background-image: var(--bs-form-check-bg-image);
   border: var(--bs-border-width) solid var(--bs-border-color);
+<<<<<<< Updated upstream
   -webkit-print-color-adjust: exact;
   color-adjust: exact;
+=======
+>>>>>>> Stashed changes
   print-color-adjust: exact;
   background-position: center;
   background-repeat: no-repeat;
@@ -2581,6 +2821,7 @@ textarea.form-control-lg {
 }
 
 .form-check-input:focus {
+<<<<<<< Updated upstream
   border-color: #86b7fe;
   outline: 0;
   box-shadow: 0 0 0 .25rem #0d6efd40;
@@ -2589,6 +2830,16 @@ textarea.form-control-lg {
 .form-check-input:checked {
   background-color: #0d6efd;
   border-color: #0d6efd;
+=======
+  border-color: #c9b8ed;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem #9370db40;
+}
+
+.form-check-input:checked {
+  background-color: #9370db;
+  border-color: #9370db;
+>>>>>>> Stashed changes
 }
 
 .form-check-input:checked[type="checkbox"] {
@@ -2601,8 +2852,13 @@ textarea.form-control-lg {
 
 .form-check-input[type="checkbox"]:indeterminate {
   --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
+<<<<<<< Updated upstream
   background-color: #0d6efd;
   border-color: #0d6efd;
+=======
+  background-color: #9370db;
+  border-color: #9370db;
+>>>>>>> Stashed changes
 }
 
 .form-check-input:disabled {
@@ -2611,7 +2867,11 @@ textarea.form-control-lg {
   opacity: .5;
 }
 
+<<<<<<< Updated upstream
 .form-check-input:disabled ~ .form-check-label, .form-check-input[disabled] ~ .form-check-label {
+=======
+.form-check-input[disabled] ~ .form-check-label, .form-check-input:disabled ~ .form-check-label {
+>>>>>>> Stashed changes
   cursor: default;
   opacity: .5;
 }
@@ -2637,7 +2897,11 @@ textarea.form-control-lg {
 }
 
 .form-switch .form-check-input:focus {
+<<<<<<< Updated upstream
   --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%2386b7fe'/%3e%3c/svg%3e");
+=======
+  --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23c9b8ed'/%3e%3c/svg%3e");
+>>>>>>> Stashed changes
 }
 
 .form-switch .form-check-input:checked {
@@ -2666,7 +2930,11 @@ textarea.form-control-lg {
   position: absolute;
 }
 
+<<<<<<< Updated upstream
 .btn-check:disabled + .btn, .btn-check[disabled] + .btn {
+=======
+.btn-check[disabled] + .btn, .btn-check:disabled + .btn {
+>>>>>>> Stashed changes
   pointer-events: none;
   filter: none;
   opacity: .65;
@@ -2689,11 +2957,19 @@ textarea.form-control-lg {
 }
 
 .form-range:focus::-webkit-slider-thumb {
+<<<<<<< Updated upstream
   box-shadow: 0 0 0 1px #fff, 0 0 0 .25rem #0d6efd40;
 }
 
 .form-range:focus::-moz-range-thumb {
   box-shadow: 0 0 0 1px #fff, 0 0 0 .25rem #0d6efd40;
+=======
+  box-shadow: 0 0 0 1px #e6e6fa, 0 0 0 .25rem #9370db40;
+}
+
+.form-range:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 1px #e6e6fa, 0 0 0 .25rem #9370db40;
+>>>>>>> Stashed changes
 }
 
 .form-range::-moz-focus-outer {
@@ -2702,7 +2978,11 @@ textarea.form-control-lg {
 
 .form-range::-webkit-slider-thumb {
   appearance: none;
+<<<<<<< Updated upstream
   background-color: #0d6efd;
+=======
+  background-color: #9370db;
+>>>>>>> Stashed changes
   border: 0;
   border-radius: 1rem;
   width: 1rem;
@@ -2718,7 +2998,11 @@ textarea.form-control-lg {
 }
 
 .form-range::-webkit-slider-thumb:active {
+<<<<<<< Updated upstream
   background-color: #b6d4fe;
+=======
+  background-color: #dfd4f4;
+>>>>>>> Stashed changes
 }
 
 .form-range::-webkit-slider-runnable-track {
@@ -2733,7 +3017,11 @@ textarea.form-control-lg {
 
 .form-range::-moz-range-thumb {
   appearance: none;
+<<<<<<< Updated upstream
   background-color: #0d6efd;
+=======
+  background-color: #9370db;
+>>>>>>> Stashed changes
   border: 0;
   border-radius: 1rem;
   width: 1rem;
@@ -2748,7 +3036,11 @@ textarea.form-control-lg {
 }
 
 .form-range::-moz-range-thumb:active {
+<<<<<<< Updated upstream
   background-color: #b6d4fe;
+=======
+  background-color: #dfd4f4;
+>>>>>>> Stashed changes
 }
 
 .form-range::-moz-range-track {
@@ -2810,6 +3102,7 @@ textarea.form-control-lg {
   padding: 1rem .75rem;
 }
 
+<<<<<<< Updated upstream
 .form-floating > .form-control-plaintext::-moz-placeholder {
   color: #0000;
 }
@@ -2823,20 +3116,36 @@ textarea.form-control-lg {
 }
 
 :-webkit-any(.form-floating > .form-control-plaintext:not(:placeholder-shown), .form-floating > .form-control:not(:placeholder-shown)), .form-floating > .form-control-plaintext:focus, .form-floating > .form-control-plaintext:not(:placeholder-shown), .form-floating > .form-control:focus, .form-floating > .form-control:not(:placeholder-shown), :-webkit-any(.form-floating > .form-control-plaintext:-webkit-autofill, .form-floating > .form-control:-webkit-autofill), .form-floating > .form-select {
+=======
+.form-floating > .form-control::placeholder, .form-floating > .form-control-plaintext::placeholder {
+  color: #0000;
+}
+
+.form-floating > .form-control:focus, .form-floating > .form-control:not(:placeholder-shown), .form-floating > .form-control-plaintext:focus, .form-floating > .form-control-plaintext:not(:placeholder-shown), :-webkit-any(.form-floating > .form-control:-webkit-autofill, .form-floating > .form-control-plaintext:-webkit-autofill), .form-floating > .form-select {
+>>>>>>> Stashed changes
   padding-top: 1.625rem;
   padding-bottom: .625rem;
 }
 
+<<<<<<< Updated upstream
 :is(.form-floating > .form-control-plaintext:not(:placeholder-shown), .form-floating > .form-control:not(:placeholder-shown)), .form-floating > .form-control-plaintext:focus, .form-floating > .form-control-plaintext:not(:placeholder-shown), .form-floating > .form-control:focus, .form-floating > .form-control:not(:placeholder-shown), :is(.form-floating > .form-control-plaintext:autofill, .form-floating > .form-control:autofill), .form-floating > .form-select {
+=======
+.form-floating > .form-control:focus, .form-floating > .form-control:not(:placeholder-shown), .form-floating > .form-control-plaintext:focus, .form-floating > .form-control-plaintext:not(:placeholder-shown), :is(.form-floating > .form-control:autofill, .form-floating > .form-control-plaintext:autofill), .form-floating > .form-select {
+>>>>>>> Stashed changes
   padding-top: 1.625rem;
   padding-bottom: .625rem;
 }
 
+<<<<<<< Updated upstream
 .form-floating > .form-control:not(:-moz-placeholder-shown) ~ label {
+=======
+.form-floating > .form-control:focus ~ label, .form-floating > .form-control:not(:placeholder-shown) ~ label, .form-floating > .form-control-plaintext ~ label, .form-floating > .form-select ~ label {
+>>>>>>> Stashed changes
   color: rgba(var(--bs-body-color-rgb), .65);
   transform: scale(.85)translateY(-.5rem)translateX(.15rem);
 }
 
+<<<<<<< Updated upstream
 .form-floating > .form-control-plaintext ~ label, .form-floating > .form-control:focus ~ label, .form-floating > .form-control:not(:placeholder-shown) ~ label, .form-floating > .form-select ~ label {
   color: rgba(var(--bs-body-color-rgb), .65);
   transform: scale(.85)translateY(-.5rem)translateX(.15rem);
@@ -2853,6 +3162,9 @@ textarea.form-control-lg {
 }
 
 .form-floating > .form-control-plaintext ~ label:after, .form-floating > .form-control:focus ~ label:after, .form-floating > .form-control:not(:placeholder-shown) ~ label:after, .form-floating > .form-select ~ label:after {
+=======
+.form-floating > .form-control:focus ~ label:after, .form-floating > .form-control:not(:placeholder-shown) ~ label:after, .form-floating > .form-control-plaintext ~ label:after, .form-floating > .form-select ~ label:after {
+>>>>>>> Stashed changes
   z-index: -1;
   content: "";
   background-color: var(--bs-body-bg);
@@ -2871,11 +3183,19 @@ textarea.form-control-lg {
   border-width: var(--bs-border-width) 0;
 }
 
+<<<<<<< Updated upstream
 .form-floating > .form-control:disabled ~ label, .form-floating > :disabled ~ label {
   color: #6c757d;
 }
 
 .form-floating > .form-control:disabled ~ label:after, .form-floating > :disabled ~ label:after {
+=======
+.form-floating > :disabled ~ label, .form-floating > .form-control:disabled ~ label {
+  color: #6c757d;
+}
+
+.form-floating > :disabled ~ label:after, .form-floating > .form-control:disabled ~ label:after {
+>>>>>>> Stashed changes
   background-color: var(--bs-secondary-bg);
 }
 
@@ -2887,14 +3207,22 @@ textarea.form-control-lg {
   position: relative;
 }
 
+<<<<<<< Updated upstream
 .input-group > .form-control, .input-group > .form-floating, .input-group > .form-select {
+=======
+.input-group > .form-control, .input-group > .form-select, .input-group > .form-floating {
+>>>>>>> Stashed changes
   flex: auto;
   width: 1%;
   min-width: 0;
   position: relative;
 }
 
+<<<<<<< Updated upstream
 .input-group > .form-control:focus, .input-group > .form-floating:focus-within, .input-group > .form-select:focus {
+=======
+.input-group > .form-control:focus, .input-group > .form-select:focus, .input-group > .form-floating:focus-within {
+>>>>>>> Stashed changes
   z-index: 5;
 }
 
@@ -2922,13 +3250,21 @@ textarea.form-control-lg {
   display: flex;
 }
 
+<<<<<<< Updated upstream
 .input-group-lg > .btn, .input-group-lg > .form-control, .input-group-lg > .form-select, .input-group-lg > .input-group-text {
+=======
+.input-group-lg > .form-control, .input-group-lg > .form-select, .input-group-lg > .input-group-text, .input-group-lg > .btn {
+>>>>>>> Stashed changes
   border-radius: var(--bs-border-radius-lg);
   padding: .5rem 1rem;
   font-size: 1.25rem;
 }
 
+<<<<<<< Updated upstream
 .input-group-sm > .btn, .input-group-sm > .form-control, .input-group-sm > .form-select, .input-group-sm > .input-group-text {
+=======
+.input-group-sm > .form-control, .input-group-sm > .form-select, .input-group-sm > .input-group-text, .input-group-sm > .btn {
+>>>>>>> Stashed changes
   border-radius: var(--bs-border-radius-sm);
   padding: .25rem .5rem;
   font-size: .875rem;
@@ -2938,7 +3274,11 @@ textarea.form-control-lg {
   padding-right: 3rem;
 }
 
+<<<<<<< Updated upstream
 .input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation) > .form-floating:not(:last-child) > .form-control, .input-group:not(.has-validation) > .form-floating:not(:last-child) > .form-select, .input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating), .input-group.has-validation > .dropdown-toggle:nth-last-child(n+4), .input-group.has-validation > .form-floating:nth-last-child(n+3) > .form-control, .input-group.has-validation > .form-floating:nth-last-child(n+3) > .form-select, .input-group.has-validation > :nth-last-child(n+3):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+=======
+.input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating), .input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation) > .form-floating:not(:last-child) > .form-control, .input-group:not(.has-validation) > .form-floating:not(:last-child) > .form-select, .input-group.has-validation > :nth-last-child(n+3):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating), .input-group.has-validation > .dropdown-toggle:nth-last-child(n+4), .input-group.has-validation > .form-floating:nth-last-child(n+3) > .form-control, .input-group.has-validation > .form-floating:nth-last-child(n+3) > .form-select {
+>>>>>>> Stashed changes
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -2976,11 +3316,19 @@ textarea.form-control-lg {
   top: 100%;
 }
 
+<<<<<<< Updated upstream
 .is-valid ~ .valid-feedback, .is-valid ~ .valid-tooltip, .was-validated :valid ~ .valid-feedback, .was-validated :valid ~ .valid-tooltip {
   display: block;
 }
 
 .form-control.is-valid, .was-validated .form-control:valid {
+=======
+.was-validated :valid ~ .valid-feedback, .was-validated :valid ~ .valid-tooltip, .is-valid ~ .valid-feedback, .is-valid ~ .valid-tooltip {
+  display: block;
+}
+
+.was-validated .form-control:valid, .form-control.is-valid {
+>>>>>>> Stashed changes
   border-color: var(--bs-form-valid-border-color);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
   background-position: right calc(.375em + .1875rem) center;
@@ -2989,7 +3337,11 @@ textarea.form-control-lg {
   padding-right: calc(1.5em + .75rem);
 }
 
+<<<<<<< Updated upstream
 .form-control.is-valid:focus, .was-validated .form-control:valid:focus {
+=======
+.was-validated .form-control:valid:focus, .form-control.is-valid:focus {
+>>>>>>> Stashed changes
   border-color: var(--bs-form-valid-border-color);
   box-shadow: 0 0 0 .25rem rgba(var(--bs-success-rgb), .25);
 }
@@ -2999,22 +3351,35 @@ textarea.form-control-lg {
   padding-right: calc(1.5em + .75rem);
 }
 
+<<<<<<< Updated upstream
 .form-select.is-valid, .was-validated .form-select:valid {
   border-color: var(--bs-form-valid-border-color);
 }
 
 .form-select.is-valid:not([multiple]):not([size]), .form-select.is-valid:not([multiple])[size="1"], .was-validated .form-select:valid:not([multiple]):not([size]), .was-validated .form-select:valid:not([multiple])[size="1"] {
+=======
+.was-validated .form-select:valid, .form-select.is-valid {
+  border-color: var(--bs-form-valid-border-color);
+}
+
+.was-validated .form-select:valid:not([multiple]):not([size]), .was-validated .form-select:valid:not([multiple])[size="1"], .form-select.is-valid:not([multiple]):not([size]), .form-select.is-valid:not([multiple])[size="1"] {
+>>>>>>> Stashed changes
   --bs-form-select-bg-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
   background-position: right .75rem center, right 2.25rem center;
   background-size: 16px 12px, calc(.75em + .375rem) calc(.75em + .375rem);
   padding-right: 4.125rem;
 }
 
+<<<<<<< Updated upstream
 .form-select.is-valid:focus, .was-validated .form-select:valid:focus {
+=======
+.was-validated .form-select:valid:focus, .form-select.is-valid:focus {
+>>>>>>> Stashed changes
   border-color: var(--bs-form-valid-border-color);
   box-shadow: 0 0 0 .25rem rgba(var(--bs-success-rgb), .25);
 }
 
+<<<<<<< Updated upstream
 .form-control-color.is-valid, .was-validated .form-control-color:valid {
   width: calc(1.5em + 3.75rem);
 }
@@ -3032,6 +3397,25 @@ textarea.form-control-lg {
 }
 
 .form-check-input.is-valid ~ .form-check-label, .was-validated .form-check-input:valid ~ .form-check-label {
+=======
+.was-validated .form-control-color:valid, .form-control-color.is-valid {
+  width: calc(1.5em + 3.75rem);
+}
+
+.was-validated .form-check-input:valid, .form-check-input.is-valid {
+  border-color: var(--bs-form-valid-border-color);
+}
+
+.was-validated .form-check-input:valid:checked, .form-check-input.is-valid:checked {
+  background-color: var(--bs-form-valid-color);
+}
+
+.was-validated .form-check-input:valid:focus, .form-check-input.is-valid:focus {
+  box-shadow: 0 0 0 .25rem rgba(var(--bs-success-rgb), .25);
+}
+
+.was-validated .form-check-input:valid ~ .form-check-label, .form-check-input.is-valid ~ .form-check-label {
+>>>>>>> Stashed changes
   color: var(--bs-form-valid-color);
 }
 
@@ -3039,7 +3423,11 @@ textarea.form-control-lg {
   margin-left: .5em;
 }
 
+<<<<<<< Updated upstream
 .input-group > .form-control:not(:focus).is-valid, .input-group > .form-floating:not(:focus-within).is-valid, .input-group > .form-select:not(:focus).is-valid, .was-validated .input-group > .form-control:not(:focus):valid, .was-validated .input-group > .form-floating:not(:focus-within):valid, .was-validated .input-group > .form-select:not(:focus):valid {
+=======
+.was-validated .input-group > .form-control:not(:focus):valid, .input-group > .form-control:not(:focus).is-valid, .was-validated .input-group > .form-select:not(:focus):valid, .input-group > .form-select:not(:focus).is-valid, .was-validated .input-group > .form-floating:not(:focus-within):valid, .input-group > .form-floating:not(:focus-within).is-valid {
+>>>>>>> Stashed changes
   z-index: 3;
 }
 
@@ -3065,11 +3453,19 @@ textarea.form-control-lg {
   top: 100%;
 }
 
+<<<<<<< Updated upstream
 .is-invalid ~ .invalid-feedback, .is-invalid ~ .invalid-tooltip, .was-validated :invalid ~ .invalid-feedback, .was-validated :invalid ~ .invalid-tooltip {
   display: block;
 }
 
 .form-control.is-invalid, .was-validated .form-control:invalid {
+=======
+.was-validated :invalid ~ .invalid-feedback, .was-validated :invalid ~ .invalid-tooltip, .is-invalid ~ .invalid-feedback, .is-invalid ~ .invalid-tooltip {
+  display: block;
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+>>>>>>> Stashed changes
   border-color: var(--bs-form-invalid-border-color);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
   background-position: right calc(.375em + .1875rem) center;
@@ -3078,7 +3474,11 @@ textarea.form-control-lg {
   padding-right: calc(1.5em + .75rem);
 }
 
+<<<<<<< Updated upstream
 .form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
+=======
+.was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
+>>>>>>> Stashed changes
   border-color: var(--bs-form-invalid-border-color);
   box-shadow: 0 0 0 .25rem rgba(var(--bs-danger-rgb), .25);
 }
@@ -3088,22 +3488,35 @@ textarea.form-control-lg {
   padding-right: calc(1.5em + .75rem);
 }
 
+<<<<<<< Updated upstream
 .form-select.is-invalid, .was-validated .form-select:invalid {
   border-color: var(--bs-form-invalid-border-color);
 }
 
 .form-select.is-invalid:not([multiple]):not([size]), .form-select.is-invalid:not([multiple])[size="1"], .was-validated .form-select:invalid:not([multiple]):not([size]), .was-validated .form-select:invalid:not([multiple])[size="1"] {
+=======
+.was-validated .form-select:invalid, .form-select.is-invalid {
+  border-color: var(--bs-form-invalid-border-color);
+}
+
+.was-validated .form-select:invalid:not([multiple]):not([size]), .was-validated .form-select:invalid:not([multiple])[size="1"], .form-select.is-invalid:not([multiple]):not([size]), .form-select.is-invalid:not([multiple])[size="1"] {
+>>>>>>> Stashed changes
   --bs-form-select-bg-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
   background-position: right .75rem center, right 2.25rem center;
   background-size: 16px 12px, calc(.75em + .375rem) calc(.75em + .375rem);
   padding-right: 4.125rem;
 }
 
+<<<<<<< Updated upstream
 .form-select.is-invalid:focus, .was-validated .form-select:invalid:focus {
+=======
+.was-validated .form-select:invalid:focus, .form-select.is-invalid:focus {
+>>>>>>> Stashed changes
   border-color: var(--bs-form-invalid-border-color);
   box-shadow: 0 0 0 .25rem rgba(var(--bs-danger-rgb), .25);
 }
 
+<<<<<<< Updated upstream
 .form-control-color.is-invalid, .was-validated .form-control-color:invalid {
   width: calc(1.5em + 3.75rem);
 }
@@ -3121,6 +3534,25 @@ textarea.form-control-lg {
 }
 
 .form-check-input.is-invalid ~ .form-check-label, .was-validated .form-check-input:invalid ~ .form-check-label {
+=======
+.was-validated .form-control-color:invalid, .form-control-color.is-invalid {
+  width: calc(1.5em + 3.75rem);
+}
+
+.was-validated .form-check-input:invalid, .form-check-input.is-invalid {
+  border-color: var(--bs-form-invalid-border-color);
+}
+
+.was-validated .form-check-input:invalid:checked, .form-check-input.is-invalid:checked {
+  background-color: var(--bs-form-invalid-color);
+}
+
+.was-validated .form-check-input:invalid:focus, .form-check-input.is-invalid:focus {
+  box-shadow: 0 0 0 .25rem rgba(var(--bs-danger-rgb), .25);
+}
+
+.was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label {
+>>>>>>> Stashed changes
   color: var(--bs-form-invalid-color);
 }
 
@@ -3128,7 +3560,11 @@ textarea.form-control-lg {
   margin-left: .5em;
 }
 
+<<<<<<< Updated upstream
 .input-group > .form-control:not(:focus).is-invalid, .input-group > .form-floating:not(:focus-within).is-invalid, .input-group > .form-select:not(:focus).is-invalid, .was-validated .input-group > .form-control:not(:focus):invalid, .was-validated .input-group > .form-floating:not(:focus-within):invalid, .was-validated .input-group > .form-select:not(:focus):invalid {
+=======
+.was-validated .input-group > .form-control:not(:focus):invalid, .input-group > .form-control:not(:focus).is-invalid, .was-validated .input-group > .form-select:not(:focus):invalid, .input-group > .form-select:not(:focus).is-invalid, .was-validated .input-group > .form-floating:not(:focus-within):invalid, .input-group > .form-floating:not(:focus-within).is-invalid {
+>>>>>>> Stashed changes
   z-index: 4;
 }
 
@@ -3199,17 +3635,29 @@ textarea.form-control-lg {
   outline: 0;
 }
 
+<<<<<<< Updated upstream
 .btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+=======
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+>>>>>>> Stashed changes
   color: var(--bs-btn-active-color);
   background-color: var(--bs-btn-active-bg);
   border-color: var(--bs-btn-active-border-color);
 }
 
+<<<<<<< Updated upstream
 .btn-check:checked + .btn:focus-visible, .btn.active:focus-visible, .btn.show:focus-visible, .btn:first-child:active:focus-visible, :not(.btn-check) + .btn:active:focus-visible {
   box-shadow: var(--bs-btn-focus-box-shadow);
 }
 
 .btn.disabled, .btn:disabled, fieldset:disabled .btn {
+=======
+.btn-check:checked + .btn:focus-visible, :not(.btn-check) + .btn:active:focus-visible, .btn:first-child:active:focus-visible, .btn.active:focus-visible, .btn.show:focus-visible {
+  box-shadow: var(--bs-btn-focus-box-shadow);
+}
+
+.btn:disabled, .btn.disabled, fieldset:disabled .btn {
+>>>>>>> Stashed changes
   color: var(--bs-btn-disabled-color);
   pointer-events: none;
   background-color: var(--bs-btn-disabled-bg);
@@ -3218,6 +3666,7 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
+<<<<<<< Updated upstream
   --bs-btn-color: #fff;
   --bs-btn-bg: #0d6efd;
   --bs-btn-border-color: #0d6efd;
@@ -3232,6 +3681,22 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #0d6efd;
   --bs-btn-disabled-border-color: #0d6efd;
+=======
+  --bs-btn-color: #000;
+  --bs-btn-bg: MediumPurple;
+  --bs-btn-border-color: MediumPurple;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #a385e0;
+  --bs-btn-hover-border-color: #9e7edf;
+  --bs-btn-focus-shadow-rgb: 125, 95, 186;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #a98de2;
+  --bs-btn-active-border-color: #9e7edf;
+  --bs-btn-active-shadow: inset 0 3px 5px #00000020;
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: MediumPurple;
+  --bs-btn-disabled-border-color: MediumPurple;
+>>>>>>> Stashed changes
 }
 
 .btn-secondary {
@@ -3354,6 +3819,7 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
+<<<<<<< Updated upstream
   --bs-btn-color: #0d6efd;
   --bs-btn-border-color: #0d6efd;
   --bs-btn-hover-color: #fff;
@@ -3367,6 +3833,21 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #0d6efd;
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #0d6efd;
+=======
+  --bs-btn-color: MediumPurple;
+  --bs-btn-border-color: MediumPurple;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: MediumPurple;
+  --bs-btn-hover-border-color: MediumPurple;
+  --bs-btn-focus-shadow-rgb: 147, 112, 219;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: MediumPurple;
+  --bs-btn-active-border-color: MediumPurple;
+  --bs-btn-active-shadow: inset 0 3px 5px #00000020;
+  --bs-btn-disabled-color: MediumPurple;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: MediumPurple;
+>>>>>>> Stashed changes
   --bs-gradient: none;
 }
 
@@ -3501,7 +3982,11 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #6c757d;
   --bs-btn-disabled-border-color: transparent;
   --bs-btn-box-shadow: 0 0 0 #000;
+<<<<<<< Updated upstream
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
+=======
+  --bs-btn-focus-shadow-rgb: 125, 95, 186;
+>>>>>>> Stashed changes
   text-decoration: underline;
 }
 
@@ -3513,14 +3998,22 @@ textarea.form-control-lg {
   color: var(--bs-btn-hover-color);
 }
 
+<<<<<<< Updated upstream
 .btn-group-lg > .btn, .btn-lg {
+=======
+.btn-lg, .btn-group-lg > .btn {
+>>>>>>> Stashed changes
   --bs-btn-padding-y: .5rem;
   --bs-btn-padding-x: 1rem;
   --bs-btn-font-size: 1.25rem;
   --bs-btn-border-radius: var(--bs-border-radius-lg);
 }
 
+<<<<<<< Updated upstream
 .btn-group-sm > .btn, .btn-sm {
+=======
+.btn-sm, .btn-group-sm > .btn {
+>>>>>>> Stashed changes
   --bs-btn-padding-y: .25rem;
   --bs-btn-padding-x: .5rem;
   --bs-btn-font-size: .875rem;
@@ -3569,7 +4062,11 @@ textarea.form-control-lg {
   }
 }
 
+<<<<<<< Updated upstream
 .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+=======
+.dropup, .dropend, .dropdown, .dropstart, .dropup-center, .dropdown-center {
+>>>>>>> Stashed changes
   position: relative;
 }
 
@@ -3611,7 +4108,11 @@ textarea.form-control-lg {
   --bs-dropdown-link-hover-color: var(--bs-body-color);
   --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
   --bs-dropdown-link-active-color: #fff;
+<<<<<<< Updated upstream
   --bs-dropdown-link-active-bg: #0d6efd;
+=======
+  --bs-dropdown-link-active-bg: MediumPurple;
+>>>>>>> Stashed changes
   --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
   --bs-dropdown-item-padding-x: 1rem;
   --bs-dropdown-item-padding-y: .25rem;
@@ -3861,7 +4362,11 @@ textarea.form-control-lg {
   display: block;
 }
 
+<<<<<<< Updated upstream
 .dropdown-item:focus, .dropdown-item:hover {
+=======
+.dropdown-item:hover, .dropdown-item:focus {
+>>>>>>> Stashed changes
   color: var(--bs-dropdown-link-hover-color);
   background-color: var(--bs-dropdown-link-hover-bg);
 }
@@ -3907,7 +4412,11 @@ textarea.form-control-lg {
   --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
   --bs-dropdown-link-hover-bg: #ffffff26;
   --bs-dropdown-link-active-color: #fff;
+<<<<<<< Updated upstream
   --bs-dropdown-link-active-bg: #0d6efd;
+=======
+  --bs-dropdown-link-active-bg: MediumPurple;
+>>>>>>> Stashed changes
   --bs-dropdown-link-disabled-color: #adb5bd;
   --bs-dropdown-header-color: #adb5bd;
 }
@@ -3918,12 +4427,20 @@ textarea.form-control-lg {
   position: relative;
 }
 
+<<<<<<< Updated upstream
 .btn-group-vertical > .btn, .btn-group > .btn {
+=======
+.btn-group > .btn, .btn-group-vertical > .btn {
+>>>>>>> Stashed changes
   flex: auto;
   position: relative;
 }
 
+<<<<<<< Updated upstream
 .btn-group-vertical > .btn-check:checked + .btn, .btn-group-vertical > .btn-check:focus + .btn, .btn-group-vertical > .btn.active, .btn-group-vertical > .btn:active, .btn-group-vertical > .btn:focus, .btn-group-vertical > .btn:hover, .btn-group > .btn-check:checked + .btn, .btn-group > .btn-check:focus + .btn, .btn-group > .btn.active, .btn-group > .btn:active, .btn-group > .btn:focus, .btn-group > .btn:hover {
+=======
+.btn-group > .btn-check:checked + .btn, .btn-group > .btn-check:focus + .btn, .btn-group > .btn:hover, .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active, .btn-group-vertical > .btn-check:checked + .btn, .btn-group-vertical > .btn-check:focus + .btn, .btn-group-vertical > .btn:hover, .btn-group-vertical > .btn:focus, .btn-group-vertical > .btn:active, .btn-group-vertical > .btn.active {
+>>>>>>> Stashed changes
   z-index: 1;
 }
 
@@ -3941,16 +4458,28 @@ textarea.form-control-lg {
   border-radius: var(--bs-border-radius);
 }
 
+<<<<<<< Updated upstream
 .btn-group > .btn-group:not(:first-child), .btn-group > :not(.btn-check:first-child) + .btn {
   margin-left: calc(var(--bs-border-width) * -1);
 }
 
 .btn-group > .btn-group:not(:last-child) > .btn, .btn-group > .btn.dropdown-toggle-split:first-child, .btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+=======
+.btn-group > :not(.btn-check:first-child) + .btn, .btn-group > .btn-group:not(:first-child) {
+  margin-left: calc(var(--bs-border-width) * -1);
+}
+
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > .btn.dropdown-toggle-split:first-child, .btn-group > .btn-group:not(:last-child) > .btn {
+>>>>>>> Stashed changes
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
 
+<<<<<<< Updated upstream
 .btn-group > .btn-group:not(:first-child) > .btn, .btn-group > .btn:nth-child(n+3), .btn-group > :not(.btn-check) + .btn {
+=======
+.btn-group > .btn:nth-child(n+3), .btn-group > :not(.btn-check) + .btn, .btn-group > .btn-group:not(:first-child) > .btn {
+>>>>>>> Stashed changes
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -3960,7 +4489,11 @@ textarea.form-control-lg {
   padding-right: .5625rem;
 }
 
+<<<<<<< Updated upstream
 .dropdown-toggle-split:after, .dropend .dropdown-toggle-split:after, .dropup .dropdown-toggle-split:after {
+=======
+.dropdown-toggle-split:after, .dropup .dropdown-toggle-split:after, .dropend .dropdown-toggle-split:after {
+>>>>>>> Stashed changes
   margin-left: 0;
 }
 
@@ -3968,12 +4501,20 @@ textarea.form-control-lg {
   margin-right: 0;
 }
 
+<<<<<<< Updated upstream
 .btn-group-sm > .btn + .dropdown-toggle-split, .btn-sm + .dropdown-toggle-split {
+=======
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split {
+>>>>>>> Stashed changes
   padding-left: .375rem;
   padding-right: .375rem;
 }
 
+<<<<<<< Updated upstream
 .btn-group-lg > .btn + .dropdown-toggle-split, .btn-lg + .dropdown-toggle-split {
+=======
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
+>>>>>>> Stashed changes
   padding-left: .75rem;
   padding-right: .75rem;
 }
@@ -3988,16 +4529,28 @@ textarea.form-control-lg {
   width: 100%;
 }
 
+<<<<<<< Updated upstream
 .btn-group-vertical > .btn-group:not(:first-child), .btn-group-vertical > .btn:not(:first-child) {
   margin-top: calc(var(--bs-border-width) * -1);
 }
 
 .btn-group-vertical > .btn-group:not(:last-child) > .btn, .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle) {
+=======
+.btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > .btn-group:not(:first-child) {
+  margin-top: calc(var(--bs-border-width) * -1);
+}
+
+.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-group:not(:last-child) > .btn {
+>>>>>>> Stashed changes
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
+<<<<<<< Updated upstream
 .btn-group-vertical > .btn-group:not(:first-child) > .btn, .btn-group-vertical > .btn ~ .btn {
+=======
+.btn-group-vertical > .btn ~ .btn, .btn-group-vertical > .btn-group:not(:first-child) > .btn {
+>>>>>>> Stashed changes
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -4034,13 +4587,21 @@ textarea.form-control-lg {
   }
 }
 
+<<<<<<< Updated upstream
 .nav-link:focus, .nav-link:hover {
+=======
+.nav-link:hover, .nav-link:focus {
+>>>>>>> Stashed changes
   color: var(--bs-nav-link-hover-color);
 }
 
 .nav-link:focus-visible {
   outline: 0;
+<<<<<<< Updated upstream
   box-shadow: 0 0 0 .25rem #0d6efd40;
+=======
+  box-shadow: 0 0 0 .25rem #9370db40;
+>>>>>>> Stashed changes
 }
 
 .nav-link.disabled, .nav-link:disabled {
@@ -4067,12 +4628,20 @@ textarea.form-control-lg {
   border-top-right-radius: var(--bs-nav-tabs-border-radius);
 }
 
+<<<<<<< Updated upstream
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+=======
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+>>>>>>> Stashed changes
   isolation: isolate;
   border-color: var(--bs-nav-tabs-link-hover-border-color);
 }
 
+<<<<<<< Updated upstream
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+=======
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+>>>>>>> Stashed changes
   color: var(--bs-nav-tabs-link-active-color);
   background-color: var(--bs-nav-tabs-link-active-bg);
   border-color: var(--bs-nav-tabs-link-active-border-color);
@@ -4087,7 +4656,11 @@ textarea.form-control-lg {
 .nav-pills {
   --bs-nav-pills-border-radius: var(--bs-border-radius);
   --bs-nav-pills-link-active-color: #fff;
+<<<<<<< Updated upstream
   --bs-nav-pills-link-active-bg: #0d6efd;
+=======
+  --bs-nav-pills-link-active-bg: MediumPurple;
+>>>>>>> Stashed changes
 }
 
 .nav-pills .nav-link {
@@ -4112,7 +4685,11 @@ textarea.form-control-lg {
   padding-right: 0;
 }
 
+<<<<<<< Updated upstream
 .nav-underline .nav-link:focus, .nav-underline .nav-link:hover {
+=======
+.nav-underline .nav-link:hover, .nav-underline .nav-link:focus {
+>>>>>>> Stashed changes
   border-bottom-color: currentColor;
 }
 
@@ -4122,12 +4699,20 @@ textarea.form-control-lg {
   font-weight: 700;
 }
 
+<<<<<<< Updated upstream
 .nav-fill .nav-item, .nav-fill > .nav-link {
+=======
+.nav-fill > .nav-link, .nav-fill .nav-item {
+>>>>>>> Stashed changes
   text-align: center;
   flex: auto;
 }
 
+<<<<<<< Updated upstream
 .nav-justified .nav-item, .nav-justified > .nav-link {
+=======
+.nav-justified > .nav-link, .nav-justified .nav-item {
+>>>>>>> Stashed changes
   text-align: center;
   flex-grow: 1;
   flex-basis: 0;
@@ -4174,7 +4759,11 @@ textarea.form-control-lg {
   position: relative;
 }
 
+<<<<<<< Updated upstream
 .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+=======
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
+>>>>>>> Stashed changes
   flex-wrap: inherit;
   justify-content: space-between;
   align-items: center;
@@ -4191,7 +4780,11 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 
+<<<<<<< Updated upstream
 .navbar-brand:focus, .navbar-brand:hover {
+=======
+.navbar-brand:hover, .navbar-brand:focus {
+>>>>>>> Stashed changes
   color: var(--bs-navbar-brand-hover-color);
 }
 
@@ -4223,7 +4816,11 @@ textarea.form-control-lg {
   padding-bottom: .5rem;
 }
 
+<<<<<<< Updated upstream
 .navbar-text a, .navbar-text a:focus, .navbar-text a:hover {
+=======
+.navbar-text a, .navbar-text a:hover, .navbar-text a:focus {
+>>>>>>> Stashed changes
   color: var(--bs-navbar-active-color);
 }
 
@@ -4762,7 +5359,11 @@ textarea.form-control-lg {
   inset: 0;
 }
 
+<<<<<<< Updated upstream
 .card-img, .card-img-bottom, .card-img-top {
+=======
+.card-img, .card-img-top, .card-img-bottom {
+>>>>>>> Stashed changes
   width: 100%;
 }
 
@@ -4801,11 +5402,19 @@ textarea.form-control-lg {
     border-bottom-right-radius: 0;
   }
 
+<<<<<<< Updated upstream
   .card-group > .card:not(:last-child) .card-header, .card-group > .card:not(:last-child) .card-img-top {
     border-top-right-radius: 0;
   }
 
   .card-group > .card:not(:last-child) .card-footer, .card-group > .card:not(:last-child) .card-img-bottom {
+=======
+  .card-group > .card:not(:last-child) .card-img-top, .card-group > .card:not(:last-child) .card-header {
+    border-top-right-radius: 0;
+  }
+
+  .card-group > .card:not(:last-child) .card-img-bottom, .card-group > .card:not(:last-child) .card-footer {
+>>>>>>> Stashed changes
     border-bottom-right-radius: 0;
   }
 
@@ -4814,11 +5423,19 @@ textarea.form-control-lg {
     border-bottom-left-radius: 0;
   }
 
+<<<<<<< Updated upstream
   .card-group > .card:not(:first-child) .card-header, .card-group > .card:not(:first-child) .card-img-top {
     border-top-left-radius: 0;
   }
 
   .card-group > .card:not(:first-child) .card-footer, .card-group > .card:not(:first-child) .card-img-bottom {
+=======
+  .card-group > .card:not(:first-child) .card-img-top, .card-group > .card:not(:first-child) .card-header {
+    border-top-left-radius: 0;
+  }
+
+  .card-group > .card:not(:first-child) .card-img-bottom, .card-group > .card:not(:first-child) .card-footer {
+>>>>>>> Stashed changes
     border-bottom-left-radius: 0;
   }
 }
@@ -4839,9 +5456,15 @@ textarea.form-control-lg {
   --bs-accordion-btn-icon-width: 1.25rem;
   --bs-accordion-btn-icon-transform: rotate(-180deg);
   --bs-accordion-btn-icon-transition: transform .2s ease-in-out;
+<<<<<<< Updated upstream
   --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23052c65'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   --bs-accordion-btn-focus-border-color: #86b7fe;
   --bs-accordion-btn-focus-box-shadow: 0 0 0 .25rem #0d6efd40;
+=======
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%233b2d58'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-focus-border-color: #c9b8ed;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 .25rem #9370db40;
+>>>>>>> Stashed changes
   --bs-accordion-body-padding-x: 1.25rem;
   --bs-accordion-body-padding-y: 1rem;
   --bs-accordion-active-color: var(--bs-primary-text-emphasis);
@@ -4976,8 +5599,13 @@ textarea.form-control-lg {
 }
 
 [data-bs-theme="dark"] .accordion-button:after {
+<<<<<<< Updated upstream
   --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%236ea8fe'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%236ea8fe'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+=======
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23bea9e9'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23bea9e9'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+>>>>>>> Stashed changes
 }
 
 .breadcrumb {
@@ -5028,10 +5656,17 @@ textarea.form-control-lg {
   --bs-pagination-hover-border-color: var(--bs-border-color);
   --bs-pagination-focus-color: var(--bs-link-hover-color);
   --bs-pagination-focus-bg: var(--bs-secondary-bg);
+<<<<<<< Updated upstream
   --bs-pagination-focus-box-shadow: 0 0 0 .25rem #0d6efd40;
   --bs-pagination-active-color: #fff;
   --bs-pagination-active-bg: #0d6efd;
   --bs-pagination-active-border-color: #0d6efd;
+=======
+  --bs-pagination-focus-box-shadow: 0 0 0 .25rem #9370db40;
+  --bs-pagination-active-color: #fff;
+  --bs-pagination-active-bg: MediumPurple;
+  --bs-pagination-active-border-color: MediumPurple;
+>>>>>>> Stashed changes
   --bs-pagination-disabled-color: var(--bs-secondary-color);
   --bs-pagination-disabled-bg: var(--bs-secondary-bg);
   --bs-pagination-disabled-border-color: var(--bs-border-color);
@@ -5073,14 +5708,22 @@ textarea.form-control-lg {
   outline: 0;
 }
 
+<<<<<<< Updated upstream
 .active > .page-link, .page-link.active {
+=======
+.page-link.active, .active > .page-link {
+>>>>>>> Stashed changes
   z-index: 3;
   color: var(--bs-pagination-active-color);
   background-color: var(--bs-pagination-active-bg);
   border-color: var(--bs-pagination-active-border-color);
 }
 
+<<<<<<< Updated upstream
 .disabled > .page-link, .page-link.disabled {
+=======
+.page-link.disabled, .disabled > .page-link {
+>>>>>>> Stashed changes
   color: var(--bs-pagination-disabled-color);
   pointer-events: none;
   background-color: var(--bs-pagination-disabled-bg);
@@ -5252,7 +5895,11 @@ textarea.form-control-lg {
   --bs-progress-border-radius: var(--bs-border-radius);
   --bs-progress-box-shadow: var(--bs-box-shadow-inset);
   --bs-progress-bar-color: #fff;
+<<<<<<< Updated upstream
   --bs-progress-bar-bg: #0d6efd;
+=======
+  --bs-progress-bar-bg: MediumPurple;
+>>>>>>> Stashed changes
   --bs-progress-bar-transition: width .6s ease;
   height: var(--bs-progress-height);
   font-size: var(--bs-progress-font-size);
@@ -5319,8 +5966,13 @@ textarea.form-control-lg {
   --bs-list-group-disabled-color: var(--bs-secondary-color);
   --bs-list-group-disabled-bg: var(--bs-body-bg);
   --bs-list-group-active-color: #fff;
+<<<<<<< Updated upstream
   --bs-list-group-active-bg: #0d6efd;
   --bs-list-group-active-border-color: #0d6efd;
+=======
+  --bs-list-group-active-bg: MediumPurple;
+  --bs-list-group-active-border-color: MediumPurple;
+>>>>>>> Stashed changes
   border-radius: var(--bs-list-group-border-radius);
   flex-direction: column;
   margin-bottom: 0;
@@ -5344,7 +5996,11 @@ textarea.form-control-lg {
   width: 100%;
 }
 
+<<<<<<< Updated upstream
 .list-group-item-action:focus, .list-group-item-action:hover {
+=======
+.list-group-item-action:hover, .list-group-item-action:focus {
+>>>>>>> Stashed changes
   z-index: 1;
   color: var(--bs-list-group-action-hover-color);
   background-color: var(--bs-list-group-action-hover-bg);
@@ -5697,7 +6353,11 @@ textarea.form-control-lg {
   --bs-btn-close-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");
   --bs-btn-close-opacity: .5;
   --bs-btn-close-hover-opacity: .75;
+<<<<<<< Updated upstream
   --bs-btn-close-focus-shadow: 0 0 0 .25rem #0d6efd40;
+=======
+  --bs-btn-close-focus-shadow: 0 0 0 .25rem #9370db40;
+>>>>>>> Stashed changes
   --bs-btn-close-focus-opacity: 1;
   --bs-btn-close-disabled-opacity: .25;
   --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
@@ -5724,7 +6384,11 @@ textarea.form-control-lg {
   outline: 0;
 }
 
+<<<<<<< Updated upstream
 .btn-close.disabled, .btn-close:disabled {
+=======
+.btn-close:disabled, .btn-close.disabled {
+>>>>>>> Stashed changes
   pointer-events: none;
   -webkit-user-select: none;
   user-select: none;
@@ -6006,7 +6670,11 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+<<<<<<< Updated upstream
 .modal-fullscreen .modal-footer, .modal-fullscreen .modal-header {
+=======
+.modal-fullscreen .modal-header, .modal-fullscreen .modal-footer {
+>>>>>>> Stashed changes
   border-radius: 0;
 }
 
@@ -6028,7 +6696,11 @@ textarea.form-control-lg {
     height: 100%;
   }
 
+<<<<<<< Updated upstream
   .modal-fullscreen-sm-down .modal-footer, .modal-fullscreen-sm-down .modal-header {
+=======
+  .modal-fullscreen-sm-down .modal-header, .modal-fullscreen-sm-down .modal-footer {
+>>>>>>> Stashed changes
     border-radius: 0;
   }
 
@@ -6051,7 +6723,11 @@ textarea.form-control-lg {
     height: 100%;
   }
 
+<<<<<<< Updated upstream
   .modal-fullscreen-md-down .modal-footer, .modal-fullscreen-md-down .modal-header {
+=======
+  .modal-fullscreen-md-down .modal-header, .modal-fullscreen-md-down .modal-footer {
+>>>>>>> Stashed changes
     border-radius: 0;
   }
 
@@ -6074,7 +6750,11 @@ textarea.form-control-lg {
     height: 100%;
   }
 
+<<<<<<< Updated upstream
   .modal-fullscreen-lg-down .modal-footer, .modal-fullscreen-lg-down .modal-header {
+=======
+  .modal-fullscreen-lg-down .modal-header, .modal-fullscreen-lg-down .modal-footer {
+>>>>>>> Stashed changes
     border-radius: 0;
   }
 
@@ -6097,7 +6777,11 @@ textarea.form-control-lg {
     height: 100%;
   }
 
+<<<<<<< Updated upstream
   .modal-fullscreen-xl-down .modal-footer, .modal-fullscreen-xl-down .modal-header {
+=======
+  .modal-fullscreen-xl-down .modal-header, .modal-fullscreen-xl-down .modal-footer {
+>>>>>>> Stashed changes
     border-radius: 0;
   }
 
@@ -6120,7 +6804,11 @@ textarea.form-control-lg {
     height: 100%;
   }
 
+<<<<<<< Updated upstream
   .modal-fullscreen-xxl-down .modal-footer, .modal-fullscreen-xxl-down .modal-header {
+=======
+  .modal-fullscreen-xxl-down .modal-header, .modal-fullscreen-xxl-down .modal-footer {
+>>>>>>> Stashed changes
     border-radius: 0;
   }
 
@@ -6181,45 +6869,77 @@ textarea.form-control-lg {
   position: absolute;
 }
 
+<<<<<<< Updated upstream
 .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow, .bs-tooltip-top .tooltip-arrow {
   bottom: calc(-1 * var(--bs-tooltip-arrow-height));
 }
 
 .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow:before, .bs-tooltip-top .tooltip-arrow:before {
+=======
+.bs-tooltip-top .tooltip-arrow, .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow {
+  bottom: calc(-1 * var(--bs-tooltip-arrow-height));
+}
+
+.bs-tooltip-top .tooltip-arrow:before, .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow:before {
+>>>>>>> Stashed changes
   border-width: var(--bs-tooltip-arrow-height) calc(var(--bs-tooltip-arrow-width) * .5) 0;
   border-top-color: var(--bs-tooltip-bg);
   top: -1px;
 }
 
+<<<<<<< Updated upstream
 .bs-tooltip-auto[data-popper-placement^="right"] .tooltip-arrow, .bs-tooltip-end .tooltip-arrow {
+=======
+.bs-tooltip-end .tooltip-arrow, .bs-tooltip-auto[data-popper-placement^="right"] .tooltip-arrow {
+>>>>>>> Stashed changes
   left: calc(-1 * var(--bs-tooltip-arrow-height));
   width: var(--bs-tooltip-arrow-height);
   height: var(--bs-tooltip-arrow-width);
 }
 
+<<<<<<< Updated upstream
 .bs-tooltip-auto[data-popper-placement^="right"] .tooltip-arrow:before, .bs-tooltip-end .tooltip-arrow:before {
+=======
+.bs-tooltip-end .tooltip-arrow:before, .bs-tooltip-auto[data-popper-placement^="right"] .tooltip-arrow:before {
+>>>>>>> Stashed changes
   border-width: calc(var(--bs-tooltip-arrow-width) * .5) var(--bs-tooltip-arrow-height) calc(var(--bs-tooltip-arrow-width) * .5) 0;
   border-right-color: var(--bs-tooltip-bg);
   right: -1px;
 }
 
+<<<<<<< Updated upstream
 .bs-tooltip-auto[data-popper-placement^="bottom"] .tooltip-arrow, .bs-tooltip-bottom .tooltip-arrow {
   top: calc(-1 * var(--bs-tooltip-arrow-height));
 }
 
 .bs-tooltip-auto[data-popper-placement^="bottom"] .tooltip-arrow:before, .bs-tooltip-bottom .tooltip-arrow:before {
+=======
+.bs-tooltip-bottom .tooltip-arrow, .bs-tooltip-auto[data-popper-placement^="bottom"] .tooltip-arrow {
+  top: calc(-1 * var(--bs-tooltip-arrow-height));
+}
+
+.bs-tooltip-bottom .tooltip-arrow:before, .bs-tooltip-auto[data-popper-placement^="bottom"] .tooltip-arrow:before {
+>>>>>>> Stashed changes
   border-width: 0 calc(var(--bs-tooltip-arrow-width) * .5) var(--bs-tooltip-arrow-height);
   border-bottom-color: var(--bs-tooltip-bg);
   bottom: -1px;
 }
 
+<<<<<<< Updated upstream
 .bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow, .bs-tooltip-start .tooltip-arrow {
+=======
+.bs-tooltip-start .tooltip-arrow, .bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow {
+>>>>>>> Stashed changes
   right: calc(-1 * var(--bs-tooltip-arrow-height));
   width: var(--bs-tooltip-arrow-height);
   height: var(--bs-tooltip-arrow-width);
 }
 
+<<<<<<< Updated upstream
 .bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow:before, .bs-tooltip-start .tooltip-arrow:before {
+=======
+.bs-tooltip-start .tooltip-arrow:before, .bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow:before {
+>>>>>>> Stashed changes
   border-width: calc(var(--bs-tooltip-arrow-width) * .5) 0 calc(var(--bs-tooltip-arrow-width) * .5) var(--bs-tooltip-arrow-height);
   border-left-color: var(--bs-tooltip-bg);
   left: -1px;
@@ -6286,13 +7006,18 @@ textarea.form-control-lg {
   display: block;
 }
 
+<<<<<<< Updated upstream
 .popover .popover-arrow:after, .popover .popover-arrow:before {
+=======
+.popover .popover-arrow:before, .popover .popover-arrow:after {
+>>>>>>> Stashed changes
   content: "";
   border: 0 solid #0000;
   display: block;
   position: absolute;
 }
 
+<<<<<<< Updated upstream
 .bs-popover-auto[data-popper-placement^="top"] > .popover-arrow, .bs-popover-top > .popover-arrow {
   bottom: calc(-1 * (var(--bs-popover-arrow-height))  - var(--bs-popover-border-width));
 }
@@ -6302,35 +7027,67 @@ textarea.form-control-lg {
 }
 
 .bs-popover-auto[data-popper-placement^="top"] > .popover-arrow:before, .bs-popover-top > .popover-arrow:before {
+=======
+.bs-popover-top > .popover-arrow, .bs-popover-auto[data-popper-placement^="top"] > .popover-arrow {
+  bottom: calc(-1 * (var(--bs-popover-arrow-height))  - var(--bs-popover-border-width));
+}
+
+.bs-popover-top > .popover-arrow:before, .bs-popover-auto[data-popper-placement^="top"] > .popover-arrow:before, .bs-popover-top > .popover-arrow:after, .bs-popover-auto[data-popper-placement^="top"] > .popover-arrow:after {
+  border-width: var(--bs-popover-arrow-height) calc(var(--bs-popover-arrow-width) * .5) 0;
+}
+
+.bs-popover-top > .popover-arrow:before, .bs-popover-auto[data-popper-placement^="top"] > .popover-arrow:before {
+>>>>>>> Stashed changes
   border-top-color: var(--bs-popover-arrow-border);
   bottom: 0;
 }
 
+<<<<<<< Updated upstream
 .bs-popover-auto[data-popper-placement^="top"] > .popover-arrow:after, .bs-popover-top > .popover-arrow:after {
+=======
+.bs-popover-top > .popover-arrow:after, .bs-popover-auto[data-popper-placement^="top"] > .popover-arrow:after {
+>>>>>>> Stashed changes
   bottom: var(--bs-popover-border-width);
   border-top-color: var(--bs-popover-bg);
 }
 
+<<<<<<< Updated upstream
 .bs-popover-auto[data-popper-placement^="right"] > .popover-arrow, .bs-popover-end > .popover-arrow {
+=======
+.bs-popover-end > .popover-arrow, .bs-popover-auto[data-popper-placement^="right"] > .popover-arrow {
+>>>>>>> Stashed changes
   left: calc(-1 * (var(--bs-popover-arrow-height))  - var(--bs-popover-border-width));
   width: var(--bs-popover-arrow-height);
   height: var(--bs-popover-arrow-width);
 }
 
+<<<<<<< Updated upstream
 .bs-popover-auto[data-popper-placement^="right"] > .popover-arrow:after, .bs-popover-auto[data-popper-placement^="right"] > .popover-arrow:before, .bs-popover-end > .popover-arrow:after, .bs-popover-end > .popover-arrow:before {
   border-width: calc(var(--bs-popover-arrow-width) * .5) var(--bs-popover-arrow-height) calc(var(--bs-popover-arrow-width) * .5) 0;
 }
 
 .bs-popover-auto[data-popper-placement^="right"] > .popover-arrow:before, .bs-popover-end > .popover-arrow:before {
+=======
+.bs-popover-end > .popover-arrow:before, .bs-popover-auto[data-popper-placement^="right"] > .popover-arrow:before, .bs-popover-end > .popover-arrow:after, .bs-popover-auto[data-popper-placement^="right"] > .popover-arrow:after {
+  border-width: calc(var(--bs-popover-arrow-width) * .5) var(--bs-popover-arrow-height) calc(var(--bs-popover-arrow-width) * .5) 0;
+}
+
+.bs-popover-end > .popover-arrow:before, .bs-popover-auto[data-popper-placement^="right"] > .popover-arrow:before {
+>>>>>>> Stashed changes
   border-right-color: var(--bs-popover-arrow-border);
   left: 0;
 }
 
+<<<<<<< Updated upstream
 .bs-popover-auto[data-popper-placement^="right"] > .popover-arrow:after, .bs-popover-end > .popover-arrow:after {
+=======
+.bs-popover-end > .popover-arrow:after, .bs-popover-auto[data-popper-placement^="right"] > .popover-arrow:after {
+>>>>>>> Stashed changes
   left: var(--bs-popover-border-width);
   border-right-color: var(--bs-popover-bg);
 }
 
+<<<<<<< Updated upstream
 .bs-popover-auto[data-popper-placement^="bottom"] > .popover-arrow, .bs-popover-bottom > .popover-arrow {
   top: calc(-1 * (var(--bs-popover-arrow-height))  - var(--bs-popover-border-width));
 }
@@ -6340,16 +7097,35 @@ textarea.form-control-lg {
 }
 
 .bs-popover-auto[data-popper-placement^="bottom"] > .popover-arrow:before, .bs-popover-bottom > .popover-arrow:before {
+=======
+.bs-popover-bottom > .popover-arrow, .bs-popover-auto[data-popper-placement^="bottom"] > .popover-arrow {
+  top: calc(-1 * (var(--bs-popover-arrow-height))  - var(--bs-popover-border-width));
+}
+
+.bs-popover-bottom > .popover-arrow:before, .bs-popover-auto[data-popper-placement^="bottom"] > .popover-arrow:before, .bs-popover-bottom > .popover-arrow:after, .bs-popover-auto[data-popper-placement^="bottom"] > .popover-arrow:after {
+  border-width: 0 calc(var(--bs-popover-arrow-width) * .5) var(--bs-popover-arrow-height);
+}
+
+.bs-popover-bottom > .popover-arrow:before, .bs-popover-auto[data-popper-placement^="bottom"] > .popover-arrow:before {
+>>>>>>> Stashed changes
   border-bottom-color: var(--bs-popover-arrow-border);
   top: 0;
 }
 
+<<<<<<< Updated upstream
 .bs-popover-auto[data-popper-placement^="bottom"] > .popover-arrow:after, .bs-popover-bottom > .popover-arrow:after {
+=======
+.bs-popover-bottom > .popover-arrow:after, .bs-popover-auto[data-popper-placement^="bottom"] > .popover-arrow:after {
+>>>>>>> Stashed changes
   top: var(--bs-popover-border-width);
   border-bottom-color: var(--bs-popover-bg);
 }
 
+<<<<<<< Updated upstream
 .bs-popover-auto[data-popper-placement^="bottom"] .popover-header:before, .bs-popover-bottom .popover-header:before {
+=======
+.bs-popover-bottom .popover-header:before, .bs-popover-auto[data-popper-placement^="bottom"] .popover-header:before {
+>>>>>>> Stashed changes
   width: var(--bs-popover-arrow-width);
   margin-left: calc(-.5 * var(--bs-popover-arrow-width));
   content: "";
@@ -6360,22 +7136,38 @@ textarea.form-control-lg {
   left: 50%;
 }
 
+<<<<<<< Updated upstream
 .bs-popover-auto[data-popper-placement^="left"] > .popover-arrow, .bs-popover-start > .popover-arrow {
+=======
+.bs-popover-start > .popover-arrow, .bs-popover-auto[data-popper-placement^="left"] > .popover-arrow {
+>>>>>>> Stashed changes
   right: calc(-1 * (var(--bs-popover-arrow-height))  - var(--bs-popover-border-width));
   width: var(--bs-popover-arrow-height);
   height: var(--bs-popover-arrow-width);
 }
 
+<<<<<<< Updated upstream
 .bs-popover-auto[data-popper-placement^="left"] > .popover-arrow:after, .bs-popover-auto[data-popper-placement^="left"] > .popover-arrow:before, .bs-popover-start > .popover-arrow:after, .bs-popover-start > .popover-arrow:before {
   border-width: calc(var(--bs-popover-arrow-width) * .5) 0 calc(var(--bs-popover-arrow-width) * .5) var(--bs-popover-arrow-height);
 }
 
 .bs-popover-auto[data-popper-placement^="left"] > .popover-arrow:before, .bs-popover-start > .popover-arrow:before {
+=======
+.bs-popover-start > .popover-arrow:before, .bs-popover-auto[data-popper-placement^="left"] > .popover-arrow:before, .bs-popover-start > .popover-arrow:after, .bs-popover-auto[data-popper-placement^="left"] > .popover-arrow:after {
+  border-width: calc(var(--bs-popover-arrow-width) * .5) 0 calc(var(--bs-popover-arrow-width) * .5) var(--bs-popover-arrow-height);
+}
+
+.bs-popover-start > .popover-arrow:before, .bs-popover-auto[data-popper-placement^="left"] > .popover-arrow:before {
+>>>>>>> Stashed changes
   border-left-color: var(--bs-popover-arrow-border);
   right: 0;
 }
 
+<<<<<<< Updated upstream
 .bs-popover-auto[data-popper-placement^="left"] > .popover-arrow:after, .bs-popover-start > .popover-arrow:after {
+=======
+.bs-popover-start > .popover-arrow:after, .bs-popover-auto[data-popper-placement^="left"] > .popover-arrow:after {
+>>>>>>> Stashed changes
   right: var(--bs-popover-border-width);
   border-left-color: var(--bs-popover-bg);
 }
@@ -6436,6 +7228,7 @@ textarea.form-control-lg {
   }
 }
 
+<<<<<<< Updated upstream
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
   display: block;
 }
@@ -6445,6 +7238,17 @@ textarea.form-control-lg {
 }
 
 .active.carousel-item-start, .carousel-item-prev:not(.carousel-item-end) {
+=======
+.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+  display: block;
+}
+
+.carousel-item-next:not(.carousel-item-start), .active.carousel-item-end {
+  transform: translateX(100%);
+}
+
+.carousel-item-prev:not(.carousel-item-end), .active.carousel-item-start {
+>>>>>>> Stashed changes
   transform: translateX(-100%);
 }
 
@@ -6454,24 +7258,40 @@ textarea.form-control-lg {
   transform: none;
 }
 
+<<<<<<< Updated upstream
 .carousel-fade .carousel-item-next.carousel-item-start, .carousel-fade .carousel-item-prev.carousel-item-end, .carousel-fade .carousel-item.active {
+=======
+.carousel-fade .carousel-item.active, .carousel-fade .carousel-item-next.carousel-item-start, .carousel-fade .carousel-item-prev.carousel-item-end {
+>>>>>>> Stashed changes
   z-index: 1;
   opacity: 1;
 }
 
+<<<<<<< Updated upstream
 .carousel-fade .active.carousel-item-end, .carousel-fade .active.carousel-item-start {
+=======
+.carousel-fade .active.carousel-item-start, .carousel-fade .active.carousel-item-end {
+>>>>>>> Stashed changes
   z-index: 0;
   opacity: 0;
   transition: opacity 0s .6s;
 }
 
 @media (prefers-reduced-motion: reduce) {
+<<<<<<< Updated upstream
   .carousel-fade .active.carousel-item-end, .carousel-fade .active.carousel-item-start {
+=======
+  .carousel-fade .active.carousel-item-start, .carousel-fade .active.carousel-item-end {
+>>>>>>> Stashed changes
     transition: none;
   }
 }
 
+<<<<<<< Updated upstream
 .carousel-control-next, .carousel-control-prev {
+=======
+.carousel-control-prev, .carousel-control-next {
+>>>>>>> Stashed changes
   z-index: 1;
   color: #fff;
   text-align: center;
@@ -6490,12 +7310,20 @@ textarea.form-control-lg {
 }
 
 @media (prefers-reduced-motion: reduce) {
+<<<<<<< Updated upstream
   .carousel-control-next, .carousel-control-prev {
+=======
+  .carousel-control-prev, .carousel-control-next {
+>>>>>>> Stashed changes
     transition: none;
   }
 }
 
+<<<<<<< Updated upstream
 .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+=======
+.carousel-control-prev:hover, .carousel-control-prev:focus, .carousel-control-next:hover, .carousel-control-next:focus {
+>>>>>>> Stashed changes
   color: #fff;
   opacity: .9;
   outline: 0;
@@ -6510,7 +7338,11 @@ textarea.form-control-lg {
   right: 0;
 }
 
+<<<<<<< Updated upstream
 .carousel-control-next-icon, .carousel-control-prev-icon {
+=======
+.carousel-control-prev-icon, .carousel-control-next-icon {
+>>>>>>> Stashed changes
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -6581,7 +7413,11 @@ textarea.form-control-lg {
   right: 15%;
 }
 
+<<<<<<< Updated upstream
 .carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+=======
+.carousel-dark .carousel-control-prev-icon, .carousel-dark .carousel-control-next-icon {
+>>>>>>> Stashed changes
   filter: invert() grayscale(100);
 }
 
@@ -6593,7 +7429,11 @@ textarea.form-control-lg {
   color: #000;
 }
 
+<<<<<<< Updated upstream
 [data-bs-theme="dark"] .carousel .carousel-control-next-icon, [data-bs-theme="dark"] .carousel .carousel-control-prev-icon, [data-bs-theme="dark"].carousel .carousel-control-next-icon, [data-bs-theme="dark"].carousel .carousel-control-prev-icon {
+=======
+[data-bs-theme="dark"] .carousel .carousel-control-prev-icon, [data-bs-theme="dark"] .carousel .carousel-control-next-icon, [data-bs-theme="dark"].carousel .carousel-control-prev-icon, [data-bs-theme="dark"].carousel .carousel-control-next-icon {
+>>>>>>> Stashed changes
   filter: invert() grayscale(100);
 }
 
@@ -6605,7 +7445,11 @@ textarea.form-control-lg {
   color: #000;
 }
 
+<<<<<<< Updated upstream
 .spinner-border, .spinner-grow {
+=======
+.spinner-grow, .spinner-border {
+>>>>>>> Stashed changes
   width: var(--bs-spinner-width);
   height: var(--bs-spinner-height);
   vertical-align: var(--bs-spinner-vertical-align);
@@ -6669,7 +7513,11 @@ textarea.form-control-lg {
   }
 }
 
+<<<<<<< Updated upstream
 .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+=======
+.offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm {
+>>>>>>> Stashed changes
   --bs-offcanvas-zindex: 1045;
   --bs-offcanvas-width: 400px;
   --bs-offcanvas-height: 30vh;
@@ -6743,11 +7591,19 @@ textarea.form-control-lg {
     transform: translateY(100%);
   }
 
+<<<<<<< Updated upstream
   .offcanvas-sm.show:not(.hiding), .offcanvas-sm.showing {
     transform: none;
   }
 
   .offcanvas-sm.hiding, .offcanvas-sm.show, .offcanvas-sm.showing {
+=======
+  .offcanvas-sm.showing, .offcanvas-sm.show:not(.hiding) {
+    transform: none;
+  }
+
+  .offcanvas-sm.showing, .offcanvas-sm.hiding, .offcanvas-sm.show {
+>>>>>>> Stashed changes
     visibility: visible;
   }
 }
@@ -6831,11 +7687,19 @@ textarea.form-control-lg {
     transform: translateY(100%);
   }
 
+<<<<<<< Updated upstream
   .offcanvas-md.show:not(.hiding), .offcanvas-md.showing {
     transform: none;
   }
 
   .offcanvas-md.hiding, .offcanvas-md.show, .offcanvas-md.showing {
+=======
+  .offcanvas-md.showing, .offcanvas-md.show:not(.hiding) {
+    transform: none;
+  }
+
+  .offcanvas-md.showing, .offcanvas-md.hiding, .offcanvas-md.show {
+>>>>>>> Stashed changes
     visibility: visible;
   }
 }
@@ -6919,11 +7783,19 @@ textarea.form-control-lg {
     transform: translateY(100%);
   }
 
+<<<<<<< Updated upstream
   .offcanvas-lg.show:not(.hiding), .offcanvas-lg.showing {
     transform: none;
   }
 
   .offcanvas-lg.hiding, .offcanvas-lg.show, .offcanvas-lg.showing {
+=======
+  .offcanvas-lg.showing, .offcanvas-lg.show:not(.hiding) {
+    transform: none;
+  }
+
+  .offcanvas-lg.showing, .offcanvas-lg.hiding, .offcanvas-lg.show {
+>>>>>>> Stashed changes
     visibility: visible;
   }
 }
@@ -7007,11 +7879,19 @@ textarea.form-control-lg {
     transform: translateY(100%);
   }
 
+<<<<<<< Updated upstream
   .offcanvas-xl.show:not(.hiding), .offcanvas-xl.showing {
     transform: none;
   }
 
   .offcanvas-xl.hiding, .offcanvas-xl.show, .offcanvas-xl.showing {
+=======
+  .offcanvas-xl.showing, .offcanvas-xl.show:not(.hiding) {
+    transform: none;
+  }
+
+  .offcanvas-xl.showing, .offcanvas-xl.hiding, .offcanvas-xl.show {
+>>>>>>> Stashed changes
     visibility: visible;
   }
 }
@@ -7095,11 +7975,19 @@ textarea.form-control-lg {
     transform: translateY(100%);
   }
 
+<<<<<<< Updated upstream
   .offcanvas-xxl.show:not(.hiding), .offcanvas-xxl.showing {
     transform: none;
   }
 
   .offcanvas-xxl.hiding, .offcanvas-xxl.show, .offcanvas-xxl.showing {
+=======
+  .offcanvas-xxl.showing, .offcanvas-xxl.show:not(.hiding) {
+    transform: none;
+  }
+
+  .offcanvas-xxl.showing, .offcanvas-xxl.hiding, .offcanvas-xxl.show {
+>>>>>>> Stashed changes
     visibility: visible;
   }
 }
@@ -7180,11 +8068,19 @@ textarea.form-control-lg {
   transform: translateY(100%);
 }
 
+<<<<<<< Updated upstream
 .offcanvas.show:not(.hiding), .offcanvas.showing {
   transform: none;
 }
 
 .offcanvas.hiding, .offcanvas.show, .offcanvas.showing {
+=======
+.offcanvas.showing, .offcanvas.show:not(.hiding) {
+  transform: none;
+}
+
+.offcanvas.showing, .offcanvas.hiding, .offcanvas.show {
+>>>>>>> Stashed changes
   visibility: visible;
 }
 
@@ -7289,7 +8185,11 @@ textarea.form-control-lg {
 }
 
 .text-bg-primary {
+<<<<<<< Updated upstream
   color: #fff !important;
+=======
+  color: #000 !important;
+>>>>>>> Stashed changes
   background-color: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
@@ -7331,6 +8231,7 @@ textarea.form-control-lg {
 .link-primary {
   color: RGBA(var(--bs-primary-rgb), var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(var(--bs-primary-rgb), var(--bs-link-underline-opacity, 1)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: RGBA(var(--bs-primary-rgb), var(--bs-link-underline-opacity, 1)) !important;
   text-decoration-color: RGBA(var(--bs-primary-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
@@ -7340,11 +8241,21 @@ textarea.form-control-lg {
   -webkit-text-decoration-color: RGBA(10, 88, 202, var(--bs-link-underline-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(10, 88, 202, var(--bs-link-underline-opacity, 1)) !important;
   text-decoration-color: RGBA(10, 88, 202, var(--bs-link-underline-opacity, 1)) !important;
+=======
+  text-decoration-color: RGBA(var(--bs-primary-rgb), var(--bs-link-underline-opacity, 1)) !important;
+}
+
+.link-primary:hover, .link-primary:focus {
+  color: RGBA(169, 141, 226, var(--bs-link-opacity, 1)) !important;
+  -webkit-text-decoration-color: RGBA(169, 141, 226, var(--bs-link-underline-opacity, 1)) !important;
+  text-decoration-color: RGBA(169, 141, 226, var(--bs-link-underline-opacity, 1)) !important;
+>>>>>>> Stashed changes
 }
 
 .link-secondary {
   color: RGBA(var(--bs-secondary-rgb), var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(var(--bs-secondary-rgb), var(--bs-link-underline-opacity, 1)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: RGBA(var(--bs-secondary-rgb), var(--bs-link-underline-opacity, 1)) !important;
   text-decoration-color: RGBA(var(--bs-secondary-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
@@ -7353,12 +8264,21 @@ textarea.form-control-lg {
   color: RGBA(86, 94, 100, var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(86, 94, 100, var(--bs-link-underline-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(86, 94, 100, var(--bs-link-underline-opacity, 1)) !important;
+=======
+  text-decoration-color: RGBA(var(--bs-secondary-rgb), var(--bs-link-underline-opacity, 1)) !important;
+}
+
+.link-secondary:hover, .link-secondary:focus {
+  color: RGBA(86, 94, 100, var(--bs-link-opacity, 1)) !important;
+  -webkit-text-decoration-color: RGBA(86, 94, 100, var(--bs-link-underline-opacity, 1)) !important;
+>>>>>>> Stashed changes
   text-decoration-color: RGBA(86, 94, 100, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-success {
   color: RGBA(var(--bs-success-rgb), var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(var(--bs-success-rgb), var(--bs-link-underline-opacity, 1)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: RGBA(var(--bs-success-rgb), var(--bs-link-underline-opacity, 1)) !important;
   text-decoration-color: RGBA(var(--bs-success-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
@@ -7367,12 +8287,21 @@ textarea.form-control-lg {
   color: RGBA(20, 108, 67, var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(20, 108, 67, var(--bs-link-underline-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(20, 108, 67, var(--bs-link-underline-opacity, 1)) !important;
+=======
+  text-decoration-color: RGBA(var(--bs-success-rgb), var(--bs-link-underline-opacity, 1)) !important;
+}
+
+.link-success:hover, .link-success:focus {
+  color: RGBA(20, 108, 67, var(--bs-link-opacity, 1)) !important;
+  -webkit-text-decoration-color: RGBA(20, 108, 67, var(--bs-link-underline-opacity, 1)) !important;
+>>>>>>> Stashed changes
   text-decoration-color: RGBA(20, 108, 67, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-info {
   color: RGBA(var(--bs-info-rgb), var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(var(--bs-info-rgb), var(--bs-link-underline-opacity, 1)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: RGBA(var(--bs-info-rgb), var(--bs-link-underline-opacity, 1)) !important;
   text-decoration-color: RGBA(var(--bs-info-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
@@ -7381,12 +8310,21 @@ textarea.form-control-lg {
   color: RGBA(61, 213, 243, var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(61, 213, 243, var(--bs-link-underline-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(61, 213, 243, var(--bs-link-underline-opacity, 1)) !important;
+=======
+  text-decoration-color: RGBA(var(--bs-info-rgb), var(--bs-link-underline-opacity, 1)) !important;
+}
+
+.link-info:hover, .link-info:focus {
+  color: RGBA(61, 213, 243, var(--bs-link-opacity, 1)) !important;
+  -webkit-text-decoration-color: RGBA(61, 213, 243, var(--bs-link-underline-opacity, 1)) !important;
+>>>>>>> Stashed changes
   text-decoration-color: RGBA(61, 213, 243, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-warning {
   color: RGBA(var(--bs-warning-rgb), var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(var(--bs-warning-rgb), var(--bs-link-underline-opacity, 1)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: RGBA(var(--bs-warning-rgb), var(--bs-link-underline-opacity, 1)) !important;
   text-decoration-color: RGBA(var(--bs-warning-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
@@ -7395,12 +8333,21 @@ textarea.form-control-lg {
   color: RGBA(255, 205, 57, var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(255, 205, 57, var(--bs-link-underline-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(255, 205, 57, var(--bs-link-underline-opacity, 1)) !important;
+=======
+  text-decoration-color: RGBA(var(--bs-warning-rgb), var(--bs-link-underline-opacity, 1)) !important;
+}
+
+.link-warning:hover, .link-warning:focus {
+  color: RGBA(255, 205, 57, var(--bs-link-opacity, 1)) !important;
+  -webkit-text-decoration-color: RGBA(255, 205, 57, var(--bs-link-underline-opacity, 1)) !important;
+>>>>>>> Stashed changes
   text-decoration-color: RGBA(255, 205, 57, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-danger {
   color: RGBA(var(--bs-danger-rgb), var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(var(--bs-danger-rgb), var(--bs-link-underline-opacity, 1)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: RGBA(var(--bs-danger-rgb), var(--bs-link-underline-opacity, 1)) !important;
   text-decoration-color: RGBA(var(--bs-danger-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
@@ -7409,12 +8356,21 @@ textarea.form-control-lg {
   color: RGBA(176, 42, 55, var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(176, 42, 55, var(--bs-link-underline-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(176, 42, 55, var(--bs-link-underline-opacity, 1)) !important;
+=======
+  text-decoration-color: RGBA(var(--bs-danger-rgb), var(--bs-link-underline-opacity, 1)) !important;
+}
+
+.link-danger:hover, .link-danger:focus {
+  color: RGBA(176, 42, 55, var(--bs-link-opacity, 1)) !important;
+  -webkit-text-decoration-color: RGBA(176, 42, 55, var(--bs-link-underline-opacity, 1)) !important;
+>>>>>>> Stashed changes
   text-decoration-color: RGBA(176, 42, 55, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-light {
   color: RGBA(var(--bs-light-rgb), var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(var(--bs-light-rgb), var(--bs-link-underline-opacity, 1)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: RGBA(var(--bs-light-rgb), var(--bs-link-underline-opacity, 1)) !important;
   text-decoration-color: RGBA(var(--bs-light-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
@@ -7423,12 +8379,21 @@ textarea.form-control-lg {
   color: RGBA(249, 250, 251, var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(249, 250, 251, var(--bs-link-underline-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(249, 250, 251, var(--bs-link-underline-opacity, 1)) !important;
+=======
+  text-decoration-color: RGBA(var(--bs-light-rgb), var(--bs-link-underline-opacity, 1)) !important;
+}
+
+.link-light:hover, .link-light:focus {
+  color: RGBA(249, 250, 251, var(--bs-link-opacity, 1)) !important;
+  -webkit-text-decoration-color: RGBA(249, 250, 251, var(--bs-link-underline-opacity, 1)) !important;
+>>>>>>> Stashed changes
   text-decoration-color: RGBA(249, 250, 251, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-dark {
   color: RGBA(var(--bs-dark-rgb), var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(var(--bs-dark-rgb), var(--bs-link-underline-opacity, 1)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: RGBA(var(--bs-dark-rgb), var(--bs-link-underline-opacity, 1)) !important;
   text-decoration-color: RGBA(var(--bs-dark-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
@@ -7437,12 +8402,21 @@ textarea.form-control-lg {
   color: RGBA(26, 30, 33, var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(26, 30, 33, var(--bs-link-underline-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(26, 30, 33, var(--bs-link-underline-opacity, 1)) !important;
+=======
+  text-decoration-color: RGBA(var(--bs-dark-rgb), var(--bs-link-underline-opacity, 1)) !important;
+}
+
+.link-dark:hover, .link-dark:focus {
+  color: RGBA(26, 30, 33, var(--bs-link-opacity, 1)) !important;
+  -webkit-text-decoration-color: RGBA(26, 30, 33, var(--bs-link-underline-opacity, 1)) !important;
+>>>>>>> Stashed changes
   text-decoration-color: RGBA(26, 30, 33, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-body-emphasis {
   color: RGBA(var(--bs-emphasis-color-rgb), var(--bs-link-opacity, 1)) !important;
   -webkit-text-decoration-color: RGBA(var(--bs-emphasis-color-rgb), var(--bs-link-underline-opacity, 1)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: RGBA(var(--bs-emphasis-color-rgb), var(--bs-link-underline-opacity, 1)) !important;
   text-decoration-color: RGBA(var(--bs-emphasis-color-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
@@ -7451,6 +8425,14 @@ textarea.form-control-lg {
   color: RGBA(var(--bs-emphasis-color-rgb), var(--bs-link-opacity, .75)) !important;
   -webkit-text-decoration-color: RGBA(var(--bs-emphasis-color-rgb), var(--bs-link-underline-opacity, .75)) !important;
   -webkit-text-decoration-color: RGBA(var(--bs-emphasis-color-rgb), var(--bs-link-underline-opacity, .75)) !important;
+=======
+  text-decoration-color: RGBA(var(--bs-emphasis-color-rgb), var(--bs-link-underline-opacity, 1)) !important;
+}
+
+.link-body-emphasis:hover, .link-body-emphasis:focus {
+  color: RGBA(var(--bs-emphasis-color-rgb), var(--bs-link-opacity, .75)) !important;
+  -webkit-text-decoration-color: RGBA(var(--bs-emphasis-color-rgb), var(--bs-link-underline-opacity, .75)) !important;
+>>>>>>> Stashed changes
   text-decoration-color: RGBA(var(--bs-emphasis-color-rgb), var(--bs-link-underline-opacity, .75)) !important;
 }
 
@@ -7461,7 +8443,10 @@ textarea.form-control-lg {
 
 .icon-link {
   -webkit-text-decoration-color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, .5));
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, .5));
+=======
+>>>>>>> Stashed changes
   text-decoration-color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, .5));
   text-underline-offset: .25em;
   backface-visibility: hidden;
@@ -7484,7 +8469,11 @@ textarea.form-control-lg {
   }
 }
 
+<<<<<<< Updated upstream
 .icon-link-hover:focus-visible > .bi, .icon-link-hover:hover > .bi {
+=======
+.icon-link-hover:hover > .bi, .icon-link-hover:focus-visible > .bi {
+>>>>>>> Stashed changes
   transform: var(--bs-icon-link-transform, translate3d(.25em, 0, 0));
 }
 
@@ -7646,7 +8635,11 @@ textarea.form-control-lg {
   overflow: hidden !important;
 }
 
+<<<<<<< Updated upstream
 .visually-hidden-focusable:not(:focus):not(:focus-within):not(caption), .visually-hidden:not(caption) {
+=======
+.visually-hidden:not(caption), .visually-hidden-focusable:not(:focus):not(:focus-within):not(caption) {
+>>>>>>> Stashed changes
   position: absolute !important;
 }
 
@@ -7709,27 +8702,42 @@ textarea.form-control-lg {
 }
 
 .object-fit-contain {
+<<<<<<< Updated upstream
   -o-object-fit: contain !important;
+=======
+>>>>>>> Stashed changes
   object-fit: contain !important;
 }
 
 .object-fit-cover {
+<<<<<<< Updated upstream
   -o-object-fit: cover !important;
+=======
+>>>>>>> Stashed changes
   object-fit: cover !important;
 }
 
 .object-fit-fill {
+<<<<<<< Updated upstream
   -o-object-fit: fill !important;
+=======
+>>>>>>> Stashed changes
   object-fit: fill !important;
 }
 
 .object-fit-scale {
+<<<<<<< Updated upstream
   -o-object-fit: scale-down !important;
+=======
+>>>>>>> Stashed changes
   object-fit: scale-down !important;
 }
 
 .object-fit-none {
+<<<<<<< Updated upstream
   -o-object-fit: none !important;
+=======
+>>>>>>> Stashed changes
   object-fit: none !important;
 }
 
@@ -8810,32 +9818,50 @@ textarea.form-control-lg {
 }
 
 .column-gap-0 {
+<<<<<<< Updated upstream
   -moz-column-gap: 0 !important;
+=======
+>>>>>>> Stashed changes
   column-gap: 0 !important;
 }
 
 .column-gap-1 {
+<<<<<<< Updated upstream
   -moz-column-gap: .25rem !important;
+=======
+>>>>>>> Stashed changes
   column-gap: .25rem !important;
 }
 
 .column-gap-2 {
+<<<<<<< Updated upstream
   -moz-column-gap: .5rem !important;
+=======
+>>>>>>> Stashed changes
   column-gap: .5rem !important;
 }
 
 .column-gap-3 {
+<<<<<<< Updated upstream
   -moz-column-gap: 1rem !important;
+=======
+>>>>>>> Stashed changes
   column-gap: 1rem !important;
 }
 
 .column-gap-4 {
+<<<<<<< Updated upstream
   -moz-column-gap: 1.5rem !important;
+=======
+>>>>>>> Stashed changes
   column-gap: 1.5rem !important;
 }
 
 .column-gap-5 {
+<<<<<<< Updated upstream
   -moz-column-gap: 3rem !important;
+=======
+>>>>>>> Stashed changes
   column-gap: 3rem !important;
 }
 
@@ -9141,63 +10167,90 @@ textarea.form-control-lg {
 .link-underline-primary {
   --bs-link-underline-opacity: 1;
   -webkit-text-decoration-color: rgba(var(--bs-primary-rgb), var(--bs-link-underline-opacity)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: rgba(var(--bs-primary-rgb), var(--bs-link-underline-opacity)) !important;
+=======
+>>>>>>> Stashed changes
   text-decoration-color: rgba(var(--bs-primary-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
 .link-underline-secondary {
   --bs-link-underline-opacity: 1;
   -webkit-text-decoration-color: rgba(var(--bs-secondary-rgb), var(--bs-link-underline-opacity)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: rgba(var(--bs-secondary-rgb), var(--bs-link-underline-opacity)) !important;
+=======
+>>>>>>> Stashed changes
   text-decoration-color: rgba(var(--bs-secondary-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
 .link-underline-success {
   --bs-link-underline-opacity: 1;
   -webkit-text-decoration-color: rgba(var(--bs-success-rgb), var(--bs-link-underline-opacity)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: rgba(var(--bs-success-rgb), var(--bs-link-underline-opacity)) !important;
+=======
+>>>>>>> Stashed changes
   text-decoration-color: rgba(var(--bs-success-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
 .link-underline-info {
   --bs-link-underline-opacity: 1;
   -webkit-text-decoration-color: rgba(var(--bs-info-rgb), var(--bs-link-underline-opacity)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: rgba(var(--bs-info-rgb), var(--bs-link-underline-opacity)) !important;
+=======
+>>>>>>> Stashed changes
   text-decoration-color: rgba(var(--bs-info-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
 .link-underline-warning {
   --bs-link-underline-opacity: 1;
   -webkit-text-decoration-color: rgba(var(--bs-warning-rgb), var(--bs-link-underline-opacity)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: rgba(var(--bs-warning-rgb), var(--bs-link-underline-opacity)) !important;
+=======
+>>>>>>> Stashed changes
   text-decoration-color: rgba(var(--bs-warning-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
 .link-underline-danger {
   --bs-link-underline-opacity: 1;
   -webkit-text-decoration-color: rgba(var(--bs-danger-rgb), var(--bs-link-underline-opacity)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: rgba(var(--bs-danger-rgb), var(--bs-link-underline-opacity)) !important;
+=======
+>>>>>>> Stashed changes
   text-decoration-color: rgba(var(--bs-danger-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
 .link-underline-light {
   --bs-link-underline-opacity: 1;
   -webkit-text-decoration-color: rgba(var(--bs-light-rgb), var(--bs-link-underline-opacity)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: rgba(var(--bs-light-rgb), var(--bs-link-underline-opacity)) !important;
+=======
+>>>>>>> Stashed changes
   text-decoration-color: rgba(var(--bs-light-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
 .link-underline-dark {
   --bs-link-underline-opacity: 1;
   -webkit-text-decoration-color: rgba(var(--bs-dark-rgb), var(--bs-link-underline-opacity)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: rgba(var(--bs-dark-rgb), var(--bs-link-underline-opacity)) !important;
+=======
+>>>>>>> Stashed changes
   text-decoration-color: rgba(var(--bs-dark-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
 .link-underline {
   --bs-link-underline-opacity: 1;
   -webkit-text-decoration-color: rgba(var(--bs-link-color-rgb), var(--bs-link-underline-opacity, 1)) !important;
+<<<<<<< Updated upstream
   -webkit-text-decoration-color: rgba(var(--bs-link-color-rgb), var(--bs-link-underline-opacity, 1)) !important;
+=======
+>>>>>>> Stashed changes
   text-decoration-color: rgba(var(--bs-link-color-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
 
@@ -9632,27 +10685,42 @@ textarea.form-control-lg {
   }
 
   .object-fit-sm-contain {
+<<<<<<< Updated upstream
     -o-object-fit: contain !important;
+=======
+>>>>>>> Stashed changes
     object-fit: contain !important;
   }
 
   .object-fit-sm-cover {
+<<<<<<< Updated upstream
     -o-object-fit: cover !important;
+=======
+>>>>>>> Stashed changes
     object-fit: cover !important;
   }
 
   .object-fit-sm-fill {
+<<<<<<< Updated upstream
     -o-object-fit: fill !important;
+=======
+>>>>>>> Stashed changes
     object-fit: fill !important;
   }
 
   .object-fit-sm-scale {
+<<<<<<< Updated upstream
     -o-object-fit: scale-down !important;
+=======
+>>>>>>> Stashed changes
     object-fit: scale-down !important;
   }
 
   .object-fit-sm-none {
+<<<<<<< Updated upstream
     -o-object-fit: none !important;
+=======
+>>>>>>> Stashed changes
     object-fit: none !important;
   }
 
@@ -10311,32 +11379,50 @@ textarea.form-control-lg {
   }
 
   .column-gap-sm-0 {
+<<<<<<< Updated upstream
     -moz-column-gap: 0 !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 0 !important;
   }
 
   .column-gap-sm-1 {
+<<<<<<< Updated upstream
     -moz-column-gap: .25rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: .25rem !important;
   }
 
   .column-gap-sm-2 {
+<<<<<<< Updated upstream
     -moz-column-gap: .5rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: .5rem !important;
   }
 
   .column-gap-sm-3 {
+<<<<<<< Updated upstream
     -moz-column-gap: 1rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 1rem !important;
   }
 
   .column-gap-sm-4 {
+<<<<<<< Updated upstream
     -moz-column-gap: 1.5rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 1.5rem !important;
   }
 
   .column-gap-sm-5 {
+<<<<<<< Updated upstream
     -moz-column-gap: 3rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 3rem !important;
   }
 
@@ -10367,27 +11453,42 @@ textarea.form-control-lg {
   }
 
   .object-fit-md-contain {
+<<<<<<< Updated upstream
     -o-object-fit: contain !important;
+=======
+>>>>>>> Stashed changes
     object-fit: contain !important;
   }
 
   .object-fit-md-cover {
+<<<<<<< Updated upstream
     -o-object-fit: cover !important;
+=======
+>>>>>>> Stashed changes
     object-fit: cover !important;
   }
 
   .object-fit-md-fill {
+<<<<<<< Updated upstream
     -o-object-fit: fill !important;
+=======
+>>>>>>> Stashed changes
     object-fit: fill !important;
   }
 
   .object-fit-md-scale {
+<<<<<<< Updated upstream
     -o-object-fit: scale-down !important;
+=======
+>>>>>>> Stashed changes
     object-fit: scale-down !important;
   }
 
   .object-fit-md-none {
+<<<<<<< Updated upstream
     -o-object-fit: none !important;
+=======
+>>>>>>> Stashed changes
     object-fit: none !important;
   }
 
@@ -11046,32 +12147,50 @@ textarea.form-control-lg {
   }
 
   .column-gap-md-0 {
+<<<<<<< Updated upstream
     -moz-column-gap: 0 !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 0 !important;
   }
 
   .column-gap-md-1 {
+<<<<<<< Updated upstream
     -moz-column-gap: .25rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: .25rem !important;
   }
 
   .column-gap-md-2 {
+<<<<<<< Updated upstream
     -moz-column-gap: .5rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: .5rem !important;
   }
 
   .column-gap-md-3 {
+<<<<<<< Updated upstream
     -moz-column-gap: 1rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 1rem !important;
   }
 
   .column-gap-md-4 {
+<<<<<<< Updated upstream
     -moz-column-gap: 1.5rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 1.5rem !important;
   }
 
   .column-gap-md-5 {
+<<<<<<< Updated upstream
     -moz-column-gap: 3rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 3rem !important;
   }
 
@@ -11102,27 +12221,42 @@ textarea.form-control-lg {
   }
 
   .object-fit-lg-contain {
+<<<<<<< Updated upstream
     -o-object-fit: contain !important;
+=======
+>>>>>>> Stashed changes
     object-fit: contain !important;
   }
 
   .object-fit-lg-cover {
+<<<<<<< Updated upstream
     -o-object-fit: cover !important;
+=======
+>>>>>>> Stashed changes
     object-fit: cover !important;
   }
 
   .object-fit-lg-fill {
+<<<<<<< Updated upstream
     -o-object-fit: fill !important;
+=======
+>>>>>>> Stashed changes
     object-fit: fill !important;
   }
 
   .object-fit-lg-scale {
+<<<<<<< Updated upstream
     -o-object-fit: scale-down !important;
+=======
+>>>>>>> Stashed changes
     object-fit: scale-down !important;
   }
 
   .object-fit-lg-none {
+<<<<<<< Updated upstream
     -o-object-fit: none !important;
+=======
+>>>>>>> Stashed changes
     object-fit: none !important;
   }
 
@@ -11781,32 +12915,50 @@ textarea.form-control-lg {
   }
 
   .column-gap-lg-0 {
+<<<<<<< Updated upstream
     -moz-column-gap: 0 !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 0 !important;
   }
 
   .column-gap-lg-1 {
+<<<<<<< Updated upstream
     -moz-column-gap: .25rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: .25rem !important;
   }
 
   .column-gap-lg-2 {
+<<<<<<< Updated upstream
     -moz-column-gap: .5rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: .5rem !important;
   }
 
   .column-gap-lg-3 {
+<<<<<<< Updated upstream
     -moz-column-gap: 1rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 1rem !important;
   }
 
   .column-gap-lg-4 {
+<<<<<<< Updated upstream
     -moz-column-gap: 1.5rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 1.5rem !important;
   }
 
   .column-gap-lg-5 {
+<<<<<<< Updated upstream
     -moz-column-gap: 3rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 3rem !important;
   }
 
@@ -11837,27 +12989,42 @@ textarea.form-control-lg {
   }
 
   .object-fit-xl-contain {
+<<<<<<< Updated upstream
     -o-object-fit: contain !important;
+=======
+>>>>>>> Stashed changes
     object-fit: contain !important;
   }
 
   .object-fit-xl-cover {
+<<<<<<< Updated upstream
     -o-object-fit: cover !important;
+=======
+>>>>>>> Stashed changes
     object-fit: cover !important;
   }
 
   .object-fit-xl-fill {
+<<<<<<< Updated upstream
     -o-object-fit: fill !important;
+=======
+>>>>>>> Stashed changes
     object-fit: fill !important;
   }
 
   .object-fit-xl-scale {
+<<<<<<< Updated upstream
     -o-object-fit: scale-down !important;
+=======
+>>>>>>> Stashed changes
     object-fit: scale-down !important;
   }
 
   .object-fit-xl-none {
+<<<<<<< Updated upstream
     -o-object-fit: none !important;
+=======
+>>>>>>> Stashed changes
     object-fit: none !important;
   }
 
@@ -12516,32 +13683,50 @@ textarea.form-control-lg {
   }
 
   .column-gap-xl-0 {
+<<<<<<< Updated upstream
     -moz-column-gap: 0 !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 0 !important;
   }
 
   .column-gap-xl-1 {
+<<<<<<< Updated upstream
     -moz-column-gap: .25rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: .25rem !important;
   }
 
   .column-gap-xl-2 {
+<<<<<<< Updated upstream
     -moz-column-gap: .5rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: .5rem !important;
   }
 
   .column-gap-xl-3 {
+<<<<<<< Updated upstream
     -moz-column-gap: 1rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 1rem !important;
   }
 
   .column-gap-xl-4 {
+<<<<<<< Updated upstream
     -moz-column-gap: 1.5rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 1.5rem !important;
   }
 
   .column-gap-xl-5 {
+<<<<<<< Updated upstream
     -moz-column-gap: 3rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 3rem !important;
   }
 
@@ -12572,27 +13757,42 @@ textarea.form-control-lg {
   }
 
   .object-fit-xxl-contain {
+<<<<<<< Updated upstream
     -o-object-fit: contain !important;
+=======
+>>>>>>> Stashed changes
     object-fit: contain !important;
   }
 
   .object-fit-xxl-cover {
+<<<<<<< Updated upstream
     -o-object-fit: cover !important;
+=======
+>>>>>>> Stashed changes
     object-fit: cover !important;
   }
 
   .object-fit-xxl-fill {
+<<<<<<< Updated upstream
     -o-object-fit: fill !important;
+=======
+>>>>>>> Stashed changes
     object-fit: fill !important;
   }
 
   .object-fit-xxl-scale {
+<<<<<<< Updated upstream
     -o-object-fit: scale-down !important;
+=======
+>>>>>>> Stashed changes
     object-fit: scale-down !important;
   }
 
   .object-fit-xxl-none {
+<<<<<<< Updated upstream
     -o-object-fit: none !important;
+=======
+>>>>>>> Stashed changes
     object-fit: none !important;
   }
 
@@ -13251,32 +14451,50 @@ textarea.form-control-lg {
   }
 
   .column-gap-xxl-0 {
+<<<<<<< Updated upstream
     -moz-column-gap: 0 !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 0 !important;
   }
 
   .column-gap-xxl-1 {
+<<<<<<< Updated upstream
     -moz-column-gap: .25rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: .25rem !important;
   }
 
   .column-gap-xxl-2 {
+<<<<<<< Updated upstream
     -moz-column-gap: .5rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: .5rem !important;
   }
 
   .column-gap-xxl-3 {
+<<<<<<< Updated upstream
     -moz-column-gap: 1rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 1rem !important;
   }
 
   .column-gap-xxl-4 {
+<<<<<<< Updated upstream
     -moz-column-gap: 1.5rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 1.5rem !important;
   }
 
   .column-gap-xxl-5 {
+<<<<<<< Updated upstream
     -moz-column-gap: 3rem !important;
+=======
+>>>>>>> Stashed changes
     column-gap: 3rem !important;
   }
 
