@@ -21,12 +21,12 @@ import { Link } from "react-router-dom";
 
 export const MovieCard = ({ movie, user, token, setUser }) => {
   const [isFavourite, setIsFavourite] = useState(
-    user.FavouriteMovies.includes(movie.id)
+    user.FavouriteMovies.includes(movie._id)
   );
 
   const addFavouriteMovie = () => {
     fetch(
-      `https://cineflix-sqlk.onrender.com/users/${user.Username}/movies/${movie.id}`,
+      `https://cineflix-sqlk.onrender.com/users/${user.Username}/movies/${movie._id}`,
       {
         method: "POST",
         headers: { Authorization: `Bearer ${token}` }
@@ -55,7 +55,7 @@ export const MovieCard = ({ movie, user, token, setUser }) => {
   };
   const removeFavouriteMovie = () => {
     fetch(
-      `https://cineflix-sqlk.onrender.com/users/${user.Username}/movies/${movie.id}`,
+      `https://cineflix-sqlk.onrender.com/users/${user.Username}/movies/${movie._id}`,
       {
         method: "DELETE",
         headers: { Authorization: `Bearer ${token}` }
@@ -94,7 +94,7 @@ export const MovieCard = ({ movie, user, token, setUser }) => {
         </Card.Body>
 
         <Card.Footer>
-          <Link to={`/movies/${movie.id}`}>
+          <Link to={`/movies/${movie._id}`}>
             <Button className="info-button" variant="light">
               More Info
             </Button>
