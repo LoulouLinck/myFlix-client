@@ -1,16 +1,20 @@
-import { createRoot } from 'react-dom/client';
+import { createRoot } from "react-dom/client";
+
+import { MainView } from "./components/main-view/main-view"; // w/ or w/out {} ?
+import Container from "react-bootstrap/Container";
 
 // Import statement to indicate that you need to bundle `./index.scss`
 import "./index.scss";
-import MainView from "./components/main-view/main-view";
+// Import react-bootstrap library
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 // Main component (will eventually use all the others)
 const MyFlixApplication = () => {
   return (
-    <div className="CineFlix">
-      <div>Welcome to my movie club!</div>
+    <Container>
+      {/* <div>Welcome to my movie club!</div> */}
       <MainView />
-    </div>
+    </Container>
   );
 };
 
