@@ -11,52 +11,53 @@ export const MovieView = ({ movies }) => {
 
   return (
     <div>
-      <Row className="h-100  movie-view">
-        {/* <Col md={6} sm={12} className="movie-image">
-        <img src={movie.ImagePath} className="w-100" />
-      </Col> */}
+      <Row className="movie-view"> 
+      {/* //h-100? */}
+        <Col md={6} sm={12} className="movie-image">
+        <img src={movie.ImagePath} className="movie-image" />
+      </Col>
 
         <Col md={6} sm={12} className="movie-info">
           <div>
-            <h1>Title: </h1>
-            <span>{movie.Title}</span>
+            <h1> 
+              <span>{movie.Title}</span> 
+            </h1>
           </div>
           <div>
-            <span>Release year: </span>
-            <span>{movie.ReleaseYear}</span>
+            <span>{movie.ReleaseYear}, {movie.Genre.Name} </span>
           </div>
           <div>
-            <span>Description: </span>
-            <span>{movie.Description}</span>
-          </div>
-          <div>
-            <span>Director: </span>
+            <span>Directed by </span>
             <span>{movie.Director.Name}</span>
           </div>
+       </Col>
+       <Col>
           <div>
-            <span>Bio: </span>
+            <br />
+            <span>Plot & Facts </span>
+            <br />
+            <span>{movie.Description}</span>
+          </div>
+          <br />
+          <div>
+            <span>About the director </span>
+            <br />
             <span>{movie.Director.Bio}</span>
           </div>
           <div>
-            <span>Birth: </span>
-            <span>{movie.Director.Birth}</span>
+            <span>Birth & Death: </span>
+            <span>{movie.Director.Birth}-{movie.Director.Death}</span>
           </div>
-          <div>
-            <span>Death: </span>
-            <span>{movie.Director.Death}</span>
-          </div>
-          <div>
-            <span>Genre: </span>
-            <span>{movie.Genre.Name}</span>
-          </div>
-          <div>
+
+          {/* <div>
             <span>Description: </span>
             <span>{movie.Genre.Description}</span>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <span>Featured: </span>
             <span>{movie.Featured}</span>
-          </div>
+          </div> */}
+          <br />
           <Link to={`/`}>
             <Button className="back-button">Go back</Button>
           </Link>
