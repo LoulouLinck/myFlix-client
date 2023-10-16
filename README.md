@@ -1,13 +1,13 @@
 # 📖 myFlix-client
 
 > The present repository is the client-side app that connects with a movie database: <a href="https://github.com/LoulouLinck/movie_api">movie_api.</a>
-> Together they form <a href="[https://github.com/LoulouLinck/movie_api](https://cineflixxx.netlify.app/)">CineFlix</a>, a responsive single-page application allowing user to find information about movies and bookmark them in a personal list. 
+> Together they form <a href="https://cineflixxx.netlify.app/">CineFlix</a>, a responsive single-page application allowing user to find information about movies and bookmark them in a personal list. 
 
 ## Objective
 Using React, build the client-side of an app based on its existing server-side code (REST API and database).
 
 **Link to CineFlix App:** https://cineflixxx.netlify.app/
-**Link to API:**https://github.com/LoulouLinck/movie_api
+**Link to API:** https://github.com/LoulouLinck/movie_api
 
 ## 🛠 Built With
 
