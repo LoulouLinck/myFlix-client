@@ -6,7 +6,9 @@
 ## Objective
 Using React, build the client-side of an app based on its existing server-side code (REST API and database).
 
+## Project Link
 **Link to CineFlix App:** https://cineflixxx.netlify.app/
+<br>
 **Link to API:** https://github.com/LoulouLinck/movie_api
 
 ## 🛠 Built With
@@ -20,11 +22,18 @@ MERN
     <li>Express</li>
     <li>React</li>
     <li>Node.js</li>
+    <br>
     <li>Parcel (build tool)</li>
     <li>JSX</li>
     <li>Vanilla JS</li>
     <li>HTML</li>
     <li>CSS</li>
+    <li></li>
+     <li>bootstrap</li>
+     <li>react-bootstrap</li>
+     <li>react-router</li>
+     <li>react-dom</li>
+     <li>react-router-dom</li>
   </ul>
 </details>
 
@@ -38,7 +47,7 @@ MERN
 <details>
   <summary>Libraries</summary>
   <ul>
-    <li><a href="https://"></a></li> 
+<!--     <li><a href="https://"></a></li>  -->
     <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
   </ul>
 </details>
@@ -58,6 +67,13 @@ MERN
 - **Filtering the list of movies with a “search” feature**
 - **Ability to select a movie for more details**
 - **Allows users to add a movie to their list of favorites**
+<br>
+- Signup / Login pages
+-List of Movies (fetched from my own API)
+-User profile view to:
+-Update user information
+-See their favorite movie list
+-Delete their account
 
 <br>
 
