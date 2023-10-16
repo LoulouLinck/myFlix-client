@@ -2,6 +2,8 @@ import { useState } from "react";
 import { MovieCard } from "../movie-card/movie-card";
 import { Button, Col, Form, Row, Modal } from "react-bootstrap";
 
+import "./profile-view.scss";
+
 export const ProfileView = ({ user, token, setUser, movies }) => {
   const [username, setUsername] = useState(user.Username);
   const [password, setPassword] = useState("");
@@ -76,7 +78,8 @@ export const ProfileView = ({ user, token, setUser, movies }) => {
     <>
       <h1 className="profile">Profile</h1>
       <Row>
-        <Col>
+        <Col xs={12} sm={4}>
+          
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formUsername" className="form-group">
               <Form.Label>Username:</Form.Label>
@@ -148,7 +151,7 @@ export const ProfileView = ({ user, token, setUser, movies }) => {
       </Row>
       <Row>
         {result.map((movie) => (
-          <Col className="mb-5" key={movie._id} md={4}>
+          <Col className="mb-5" key={movie._id} md={6}>
             <MovieCard
               movie={movie}
               user={user}
