@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+// import "./signup-view.scss";
 // import Container from 'react-bootstrap/Container'
 
 export const SignupView = () => {
@@ -45,7 +46,7 @@ export const SignupView = () => {
           value={username}
           onChange={(e) => setUsername(e.target.value)}
           required
-          minLength="5" 
+          minLength="5"
         />
       </Form.Group>
 
@@ -67,15 +68,15 @@ export const SignupView = () => {
           onChange={(e) => setEmail(e.target.value)}
           required
         />
-      </Form.Group>    
+      </Form.Group>
 
       <Form.Group controlId="formBirthday">
-       <Form.Label>Birthday:</Form.Label>
-       <Form.Control
-         type="birthday"
-         value={birthday}
-         onChange={(e) => setEmail(e.target.value)}
-         required
+        <Form.Label>Birthday:</Form.Label>
+        <Form.Control
+          type="birthday"
+          value={birthday}
+          onChange={(e) => setBirthday(e.target.value)}
+          required
         />
       </Form.Group>
 
