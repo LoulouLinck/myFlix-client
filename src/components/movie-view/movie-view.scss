@@ -1,11 +1,15 @@
 .movie-view {
     display: flex;
     max-width: 800px;
-    margin: 40px auto;
-    background: #fff;
+    margin: 40px;
+    background: #f9e8e8;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;
+}
+
+.movie-view-container {
+    margin-top: 20px;
 }
 
 .movie-image {
@@ -22,14 +26,18 @@
 }
 
 .movie-info {
-    padding: 20px;
+    padding: 40px;
     flex-grow: 1;
+}
+
+.movie-description {
+    padding: 0 40px;
 }
 
 .back-button {
     padding: 4px 12px 4px 12px;
-    color: whitesmoke;
-    background-color: dodgerblue;
+    margin: 0 40px 20px;
+    color: rgb(248, 191, 191);
     border: none;
     border-radius: 4px;
 }
