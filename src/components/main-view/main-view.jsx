@@ -117,7 +117,7 @@ export const MainView = () => {
                 ) : movies.length === 0 ? (
                   <Col>The list is empty!</Col>
                 ) : (
-                  <Col md={8}>
+                  <Col md={8} >
                     <MovieView movies={movies} />
                   </Col>
                 )}
@@ -143,13 +143,13 @@ export const MainView = () => {
                         placeholder="Search movie by title, genre, or director"
                         style={{
                           width: "40%",
-                          padding: "20px",
-                          margin: "20px 0 0 780px",
+                          padding: "8px",
+                          margin: "10px 10px 50px",
                           border: "none",
-                          boxShadow: "5px 4px 6px rgba(136, 211, 246, 1)",
+                          boxShadow: "5px 4px 6px red",
                           borderRadius: "5px",
                           outline: "none",
-                          textAlign: "center",
+                          textAlign: "left",
                         }}
                       />
                     </div>
