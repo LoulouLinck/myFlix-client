@@ -1,9 +1,14 @@
-$color: steelblue;
-$primary: MediumPurple;
-$body-bg: Lavender;
+$color: rgb(0, 0, 0);
+$primary: rgb(216, 37, 37);
+$body-bg: rgb(131, 5, 5);
 
 .my-flix {
     color: $color;
+    align-items: center;
 }
+
+// .container {
+//     background-color: rgb(101, 2, 2);
+// }
 
 @import "~bootstrap/scss/bootstrap.scss";
