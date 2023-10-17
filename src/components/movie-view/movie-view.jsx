@@ -10,9 +10,8 @@ export const MovieView = ({ movies }) => {
   const movie = movies.find((m) => m._id === movieId);
 
   return (
-    <div>
+    <div className="movie-view-container" >
       <Row className="movie-view"> 
-      {/* //h-100? */}
         <Col md={6} sm={12} className="movie-image">
         <img src={movie.ImagePath} className="movie-image" />
       </Col>
@@ -32,19 +31,27 @@ export const MovieView = ({ movies }) => {
           </div>
        </Col>
        <Col>
-          <div>
+          <div className="movie-description">
             <br />
-            <span>Plot & Facts </span>
+            <h5>
+              <span>Plot & Facts </span>  
+            </h5> 
             <br />
-            <span>{movie.Description}</span>
+            {/* <div >  */}
+              <span >{movie.Description}</span>
+            {/* </div> */}
+            
           </div>
           <br />
-          <div>
-            <span>About the director </span>
+          <div className="movie-description">
+            <h5>
+              <span>About the director </span>
+            </h5>
             <br />
             <span>{movie.Director.Bio}</span>
           </div>
-          <div>
+          <br />
+          <div className="movie-description">
             <span>Birth & Death: </span>
             <span>{movie.Director.Birth}-{movie.Director.Death}</span>
           </div>
