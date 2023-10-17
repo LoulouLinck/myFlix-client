@@ -21,6 +21,11 @@ export const MainView = () => {
   // const [selectedMovie, setSelectedMovie] = useState(null);
   const [token, setToken] = useState(storedToken ? storedToken : null);
 
+  const [searchTerm, setSearchTerm] = useState("");
+  const handleSearchChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
   useEffect(() => {
     if (!token) {
       return;
@@ -112,7 +117,7 @@ export const MainView = () => {
                 ) : movies.length === 0 ? (
                   <Col>The list is empty!</Col>
                 ) : (
-                  <Col md={8}>
+                  <Col md={8} >
                     <MovieView movies={movies} />
                   </Col>
                 )}
@@ -130,7 +135,39 @@ export const MainView = () => {
                   <Col>The list is empty!</Col>
                 ) : (
                   <>
-                    {movies.map((movie) => (
+                   <div className="search-container">
+                      <input
+                        type="text"
+                        value={searchTerm}
+                        onChange={handleSearchChange}
+                        placeholder="Search movie by title, genre, or director"
+                        style={{
+                          width: "40%",
+                          padding: "8px",
+                          margin: "10px 10px 50px",
+                          border: "none",
+                          boxShadow: "5px 4px 6px red",
+                          borderRadius: "5px",
+                          outline: "none",
+                          textAlign: "left",
+                        }}
+                      />
+                    </div>
+                    {movies
+                      .filter(
+                        (movie) =>
+                          searchTerm === "" ||
+                          movie.Title
+                            .toLowerCase()
+                            .includes(searchTerm.toLowerCase()) ||
+                          movie.Genre.Name
+                            .toLowerCase()
+                            .includes(searchTerm.toLowerCase()) ||
+                          movie.Director.Name
+                            .toLowerCase()
+                            .includes(searchTerm.toLowerCase())
+                      )
+                    .map((movie) => (
                       <Col className="mb-5" key={movie._id} md={3}>
                         <MovieCard
                           movie={movie}
