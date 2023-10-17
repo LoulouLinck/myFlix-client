@@ -18,8 +18,16 @@
   height: 100%;
 }
 
-.btn-fav-movie, .bi {
+Button.info-button {
+  color: bisque;
+}
+
+Button.btn-fav-movie, Button.bi {
   text-align: right;
+  padding-right: 3px;
+  position: absolute;
+  top: 31px;
+  right: 0%;
 }
 
 .movie-view {
@@ -72,6 +80,10 @@
 
 .navbar {
   background-color: #dc1414;
+}
+
+.navbar.container {
+  margin-left: 1.5%;
 }
 
 .profile-page-title {
