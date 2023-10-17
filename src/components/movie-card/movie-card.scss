@@ -22,10 +22,23 @@
     height: 100%;
 }
 
-.btn-fav-movie {
-    text-align: right;
+Button.info-button {
+    // background-color: bisque;
+    color: bisque;
 }
 
-.bi {
+Button.btn-fav-movie {
     text-align: right;
+    position: absolute;
+    top: 31px;
+    right: 0%;
+    padding-right: 3px;
+}
+
+Button.bi {
+    text-align: right;
+    position: absolute;
+    top: 31px;
+    right: 0%;
+    padding-right: 3px;
 }
