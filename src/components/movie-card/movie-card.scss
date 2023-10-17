@@ -23,8 +23,15 @@
 }
 
 Button.info-button {
-    // background-color: bisque;
+    background-color: transparent;
     color: bisque;
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-top: 2px;
+    border: none;
 }
 
 Button.btn-fav-movie {

@@ -20,6 +20,14 @@
 
 Button.info-button {
   color: bisque;
+  background-color: #0000;
+  border: none;
+  padding-top: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
 }
 
 Button.btn-fav-movie, Button.bi {
@@ -83,7 +91,7 @@ Button.btn-fav-movie, Button.bi {
 }
 
 .navbar.container {
-  margin-left: 1.5%;
+  margin-left: 2.5%;
 }
 
 .profile-page-title {
