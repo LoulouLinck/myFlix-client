@@ -85,21 +85,13 @@ export const MovieCard = ({ movie, user, token, setUser }) => {
 
   return (
   
+    
+    
       <Card className="border-0 h-100 justify-content-center card">
-        <Card.Title className='card-title' >{movie.Title}</Card.Title>
-        <Card.Img  className='w-100' variant="top" src={movie.ImagePath} />
-        <Card.Body className='card-body'>
-          <Card.Text>
-            {movie.Director.Name}, {movie.Genre.Name}, {movie.ReleaseYear}
-          </Card.Text>
-        </Card.Body>
+        <Card.Title className='card-title' >{movie.Title}</Card.Title> 
 
-        <Card.Footer className='card-footer'>
-          <Link to={`/movies/${movie._id}`}>
-            <Button className="info-button" variant="light">
-              More Info
-            </Button>
-          </Link>
+        <Card.Img  className='card-image w-100' variant="top" src={movie.ImagePath} />
+        <Card.ImgOverlay>        
           {isFavourite ? (
             <Button  className="btn-fav-movie"
             variant="link" onClick={removeFavouriteMovie}>
@@ -132,7 +124,26 @@ export const MovieCard = ({ movie, user, token, setUser }) => {
                     </svg>
             </Button>
           )}
-        </Card.Footer>
+        </Card.ImgOverlay>
+
+        <Card.Body className='card-body'>
+          <Card.Text>
+            {movie.Director.Name}, {movie.Genre.Name}, {movie.ReleaseYear}
+                      {/* <Card.Footer className='card-footer'> */}
+           {/* </Card.Text> */}
+
+           <Link to={`/movies/${movie._id}`}>
+            <Button className="info-button" variant="outline-light">
+              . . .
+            </Button>
+           </Link>
+          </Card.Text>
+           
+        </Card.Body>
+ 
+  
+  
+
       </Card>
 
   );
