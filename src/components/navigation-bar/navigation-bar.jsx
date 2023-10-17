@@ -5,7 +5,7 @@ import "./navigation-bar.scss"
 export const NavigationBar = ({ user, onLoggedOut }) => {
   return (
     <Navbar expand="lg">
-      <Container className="navbar">
+      <Container className="navbar container">
         <Navbar.Brand as={Link} to="/">
           CineFlix
         </Navbar.Brand>
