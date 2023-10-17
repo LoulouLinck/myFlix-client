@@ -91,7 +91,7 @@ For a clean and usable design Bootstrap was implemented to the app. Thanks to th
 
 ## Credits
 
-<!-- [Flavicon](https://) was used for logos  -->
+<a href="https://www.flaticon.com/free-icons/more" title="more icons">More icons created by JessiGue - Flaticon</a>) was used for logoss
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
