@@ -114,8 +114,8 @@ export const MainView = () => {
               <>
                 {!user ? (
                   <Navigate to="/login" replace />
-                // ) : isLoading ? ( // loading msg when fetching data takes time
-                //   <col>Loading...</col>
+                ) : isLoading ? ( // loading msg when fetching data takes time
+                  <col>Loading...</col>
                 ) : movies.length === 0 ? (
                   <Col>The list is empty!</Col>
                 ) : (
