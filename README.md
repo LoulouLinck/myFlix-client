@@ -6,7 +6,7 @@
 ## Objective
 Using React, build the client-side of an app based on its existing server-side code (REST API and database).
 
-![app-screenshot](./src/components/img/Screenshot Home Cineflix.png)
+![app-screenshot](.//src/components/img/Screenshot Home Cineflix.png)
 
 ## Project Link
 **Link to CineFlix App:** https://cineflixxx.netlify.app/
