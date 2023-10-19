@@ -26,10 +26,15 @@ export const MainView = () => {
     setSearchTerm(event.target.value);
   };
 
+  const [isLoading, setIstloading] = useState(true);
+
   useEffect(() => {
     if (!token) {
       return;
+      
     }
+    setIstloading(true);
+
     fetch("https://cineflix-sqlk.onrender.com/movies", {
       headers: { Authorization: `Bearer ${token}` }
     })
@@ -58,6 +63,11 @@ export const MainView = () => {
         // });
         // setMovies(moviesFromApi);
         setMovies(data);
+        setIstloading(false);
+      })
+      .catch((error) => {
+        console.error("eError fetching movies:", error);
+        setIstloading(false);
       });
   }, [token]);
   //returns login view: users have to login to use app
@@ -133,6 +143,8 @@ export const MainView = () => {
               <>
                 {!user ? (
                   <Navigate to="/login" replace />
+                  ) : isLoading ? ( // loading msg when fetching data takes time
+                  <col>Loading...</col>
                 ) : movies.length === 0 ? (
                   <Col>The list is empty!</Col>
                 ) : (
