@@ -27186,7 +27186,6 @@ var _loginView = require("../login-view/login-view");
 var _signupView = require("../signup-view/signup-view");
 var _navigationBar = require("../navigation-bar/navigation-bar");
 var _profileView = require("../profile-view/profile-view");
-// import { Button } from "react-bootstrap";
 var _reactBootstrap = require("react-bootstrap");
 var _reactRouterDom = require("react-router-dom");
 var _s = $RefreshSig$();
@@ -27196,9 +27195,6 @@ const MainView = ()=>{
     const storedToken = localStorage.getItem("token");
     const [movies, setMovies] = (0, _react.useState)([]);
     const [user, setUser] = (0, _react.useState)(storedUser ? storedUser : null);
-    // OR const [user, setUser] = useState(null);
-    //creates state changes for selected movies
-    // const [selectedMovie, setSelectedMovie] = useState(null);
     const [token, setToken] = (0, _react.useState)(storedToken ? storedToken : null);
     const [searchTerm, setSearchTerm] = (0, _react.useState)("");
     const handleSearchChange = (event)=>{
@@ -27237,9 +27233,6 @@ const MainView = ()=>{
             // setMovies(moviesFromApi);
             setMovies(data);
             setIstloading(false);
-        }).catch((error)=>{
-            console.error("eError fetching movies:", error);
-            setIstloading(false);
         });
     }, [
         token
@@ -27256,7 +27249,7 @@ const MainView = ()=>{
                 }
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 77,
+                lineNumber: 69,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
@@ -27281,7 +27274,7 @@ const MainView = ()=>{
                             }, void 0, false)
                         }, void 0, false, {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 87,
+                            lineNumber: 79,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -27296,7 +27289,7 @@ const MainView = ()=>{
                             }, void 0, false)
                         }, void 0, false, {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 107,
+                            lineNumber: 99,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -27319,7 +27312,7 @@ const MainView = ()=>{
                             }, void 0, false)
                         }, void 0, false, {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 121,
+                            lineNumber: 113,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -27328,8 +27321,6 @@ const MainView = ()=>{
                                 children: !user ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Navigate), {
                                     to: "/login",
                                     replace: true
-                                }, void 0, false, void 0, void 0) : isLoading ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("col", {
-                                    children: "Loading..."
                                 }, void 0, false, void 0, void 0) : movies.length === 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
                                     children: "The list is empty!"
                                 }, void 0, false, void 0, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -27368,7 +27359,7 @@ const MainView = ()=>{
                             }, void 0, false)
                         }, void 0, false, {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 140,
+                            lineNumber: 132,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -27389,78 +27380,29 @@ const MainView = ()=>{
                             }, void 0, false)
                         }, void 0, false, {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 200,
+                            lineNumber: 192,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/main-view/main-view.jsx",
-                    lineNumber: 86,
+                    lineNumber: 78,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 85,
+                lineNumber: 77,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/main-view/main-view.jsx",
-        lineNumber: 76,
+        lineNumber: 68,
         columnNumber: 5
     }, undefined);
 };
 _s(MainView, "6ONpyXqA2gp9BWcN6Jqzbft0THg=");
 _c = MainView;
-//   if (!user) {
-//     return (
-//       <div>
-//         <LoginView onLoggedIn={(user, token) => {
-//           setUser(user);
-//           setToken(token);
-//         }} />
-//         or
-//         <SignupView />
-//       </div>
-//     );
-//   }
-//    //statement for selected movie: show movie view details, includes code for back button click to go to movies list
-//   if (selectedMovie) {
-//     return (
-//       <MovieView
-//         movie={selectedMovie}
-//         onBackClick={() => setSelectedMovie(null)}
-//       />
-//     );
-//   }
-//   //if no movies in the array: page says 'list is empty'
-//   if (movies.length === 0) {
-//     return <div>The list is empty!</div>;
-//   }
-//    //return statement for movies in array being displayed and clickable from MovieCard file
-//   return (
-//    <div>
-//       {movies.map((movie) => (
-//           <MovieCard
-//             key={movie.id} //or movie.Title?
-//             movie={movie}
-//             onMovieClick={(newSelectedMovie) => {
-//               setSelectedMovie(newSelectedMovie);
-//             }}
-//           />
-//       ))}
-//        <button
-//           onClick={() => {
-//             setUser(null);
-//             setToken(null);
-//             localStorage.clear();
-//         }}
-//       >
-//         Logout
-//       </button>
-//   </div>
-//   );
-// };
 exports.default = MainView;
 var _c;
 $RefreshReg$(_c, "MainView");
@@ -27548,7 +27490,7 @@ const MovieCard = ({ movie, user, token, setUser })=>{
                 children: movie.Title
             }, void 0, false, {
                 fileName: "src/components/movie-card/movie-card.jsx",
-                lineNumber: 91,
+                lineNumber: 77,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Img, {
@@ -27557,7 +27499,7 @@ const MovieCard = ({ movie, user, token, setUser })=>{
                 src: movie.ImagePath
             }, void 0, false, {
                 fileName: "src/components/movie-card/movie-card.jsx",
-                lineNumber: 93,
+                lineNumber: 79,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).ImgOverlay, {
@@ -27578,17 +27520,17 @@ const MovieCard = ({ movie, user, token, setUser })=>{
                             d: "M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
                         }, void 0, false, {
                             fileName: "src/components/movie-card/movie-card.jsx",
-                            lineNumber: 106,
+                            lineNumber: 92,
                             columnNumber: 23
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/movie-card/movie-card.jsx",
-                        lineNumber: 98,
+                        lineNumber: 84,
                         columnNumber: 16
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/movie-card/movie-card.jsx",
-                    lineNumber: 96,
+                    lineNumber: 82,
                     columnNumber: 13
                 }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
                     className: "btn-fav-movie",
@@ -27605,22 +27547,22 @@ const MovieCard = ({ movie, user, token, setUser })=>{
                             d: "m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
                         }, void 0, false, {
                             fileName: "src/components/movie-card/movie-card.jsx",
-                            lineNumber: 123,
+                            lineNumber: 109,
                             columnNumber: 23
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/movie-card/movie-card.jsx",
-                        lineNumber: 115,
+                        lineNumber: 101,
                         columnNumber: 16
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/movie-card/movie-card.jsx",
-                    lineNumber: 113,
+                    lineNumber: 99,
                     columnNumber: 13
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/movie-card/movie-card.jsx",
-                lineNumber: 94,
+                lineNumber: 80,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
@@ -27639,29 +27581,29 @@ const MovieCard = ({ movie, user, token, setUser })=>{
                                 children: ". . ."
                             }, void 0, false, {
                                 fileName: "src/components/movie-card/movie-card.jsx",
-                                lineNumber: 133,
+                                lineNumber: 119,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/movie-card/movie-card.jsx",
-                            lineNumber: 132,
+                            lineNumber: 118,
                             columnNumber: 12
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/movie-card/movie-card.jsx",
-                    lineNumber: 130,
+                    lineNumber: 116,
                     columnNumber: 11
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/movie-card/movie-card.jsx",
-                lineNumber: 129,
+                lineNumber: 115,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/movie-card/movie-card.jsx",
-        lineNumber: 90,
+        lineNumber: 76,
         columnNumber: 7
     }, undefined);
 };
@@ -47924,7 +47866,7 @@ _c = MovieView;
 // Here is where we define all the props constraints for the MovieView
 MovieView.propTypes = {
     movie: (0, _propTypesDefault.default).shape({
-        // ImagePath: PropTypes.string.isRequired,
+        ImagePath: (0, _propTypesDefault.default).string.isRequired,
         Title: (0, _propTypesDefault.default).string.isRequired,
         ReleaseYear: (0, _propTypesDefault.default).string,
         Description: (0, _propTypesDefault.default).string,

@@ -6,20 +6,6 @@ import { Button, Card, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./movie-card.scss";
 
-// The MovieCard function component
-
-// const MovieCard = ({ movie, onMovieClick }) => {
-//   return (
-//     <div
-//       onClick={() => {
-//         onMovieClick(movie);
-//       }}
-//     >
-//       {movie.Title}
-//     </div>
-//   );
-// };
-
 export const MovieCard = ({ movie, user, token, setUser }) => {
   const [isFavourite, setIsFavourite] = useState(
     user.FavouriteMovies.includes(movie._id)

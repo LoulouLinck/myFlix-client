@@ -5,7 +5,6 @@ import { LoginView } from "../login-view/login-view";
 import { SignupView } from "../signup-view/signup-view";
 import { NavigationBar } from "../navigation-bar/navigation-bar";
 import { ProfileView } from "../profile-view/profile-view";
-// import { Button } from "react-bootstrap";
 import { Row, Col } from "react-bootstrap";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
@@ -15,10 +14,7 @@ export const MainView = () => {
 
   const [movies, setMovies] = useState([]);
   const [user, setUser] = useState(storedUser ? storedUser : null);
-  // OR const [user, setUser] = useState(null);
 
-  //creates state changes for selected movies
-  // const [selectedMovie, setSelectedMovie] = useState(null);
   const [token, setToken] = useState(storedToken ? storedToken : null);
 
   const [searchTerm, setSearchTerm] = useState("");
@@ -63,10 +59,6 @@ export const MainView = () => {
         // });
         // setMovies(moviesFromApi);
         setMovies(data);
-        setIstloading(false);
-      })
-      .catch((error) => {
-        console.error("eError fetching movies:", error);
         setIstloading(false);
       });
   }, [token]);
@@ -143,8 +135,8 @@ export const MainView = () => {
               <>
                 {!user ? (
                   <Navigate to="/login" replace />
-                  ) : isLoading ? ( // loading msg when fetching data takes time
-                  <col>Loading...</col>
+                  // ) : isLoading ? (
+                  // <col>Loading...</col> // loading msg: makes fetching bug when added. Why?
                 ) : movies.length === 0 ? (
                   <Col>The list is empty!</Col>
                 ) : (
@@ -222,53 +214,4 @@ export const MainView = () => {
   );
 };
 
-//   if (!user) {
-//     return (
-//       <div>
-//         <LoginView onLoggedIn={(user, token) => {
-//           setUser(user);
-//           setToken(token);
-//         }} />
-//         or
-//         <SignupView />
-//       </div>
-//     );
-//   }
-//    //statement for selected movie: show movie view details, includes code for back button click to go to movies list
-//   if (selectedMovie) {
-//     return (
-//       <MovieView
-//         movie={selectedMovie}
-//         onBackClick={() => setSelectedMovie(null)}
-//       />
-//     );
-//   }
-//   //if no movies in the array: page says 'list is empty'
-//   if (movies.length === 0) {
-//     return <div>The list is empty!</div>;
-//   }
-//    //return statement for movies in array being displayed and clickable from MovieCard file
-//   return (
-//    <div>
-//       {movies.map((movie) => (
-//           <MovieCard
-//             key={movie.id} //or movie.Title?
-//             movie={movie}
-//             onMovieClick={(newSelectedMovie) => {
-//               setSelectedMovie(newSelectedMovie);
-//             }}
-//           />
-//       ))}
-//        <button
-//           onClick={() => {
-//             setUser(null);
-//             setToken(null);
-//             localStorage.clear();
-//         }}
-//       >
-//         Logout
-//       </button>
-//   </div>
-//   );
-// };
 export default MainView;

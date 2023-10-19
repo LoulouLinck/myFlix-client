@@ -37,9 +37,9 @@ export const MovieView = ({ movies }) => {
               <span>Plot & Facts </span>  
             </h5> 
             <br />
-            {/* <div >  */}
+          
               <span >{movie.Description}</span>
-            {/* </div> */}
+            
             
           </div>
           <br />
@@ -77,7 +77,7 @@ export const MovieView = ({ movies }) => {
 // Here is where we define all the props constraints for the MovieView
 MovieView.propTypes = {
   movie: PropTypes.shape({
-    // ImagePath: PropTypes.string.isRequired,
+    ImagePath: PropTypes.string.isRequired,
     Title: PropTypes.string.isRequired,
     ReleaseYear: PropTypes.string,
     Description: PropTypes.string,
