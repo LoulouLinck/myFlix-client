@@ -93,23 +93,21 @@ For a clean and usable design Bootstrap was implemented to the app. Thanks to th
 
 ## Credits
 
-<a href="https://www.flaticon.com/free-icons/more" title="more icons">More icons created by JessiGue - Flaticon</a>) was used for logoss
-
-<p align="right"><a href="#readme-top">back to top</a></p>
+<a href="https://www.flaticon.com/free-icons/more" title="more icons">More icons created by JessiGue - Flaticon /a> was used for logoss
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started 
 
-- npm init --yes
+`npm init --yes`
 <br>
-- npm install -g parcel
+`npm install -g parcel`
 <br>
-- npm install -save react react-dom
+`npm install -save react react-dom`
 <br>
-- create a 'src' folder in project directory with three files: 'index.jsx', 'index.scss', 'index.html'
+create a 'src' folder in project directory with three files: 'index.jsx', 'index.scss', 'index.html'
 <br>
-- run command 'parcel src/index.html' in terminal to prompt parcel build process
+run command `parcel src/index.html` in terminal to prompt parcel build process
 
 ## 👥 Author <a name="authors"></a>
 
@@ -118,3 +116,5 @@ For a clean and usable design Bootstrap was implemented to the app. Thanks to th
 - GitHub: [@LoulouLinck](https://github.com/LoulouLinck)
 
 This was a solo project guided by tutors and mentors from <a href="https://careerfoundry.com/en/courses/become-a-web-developer/">CareerFoundry.</a>
+
+<p align="right"><a href="#readme-top">back to top</a></p>
