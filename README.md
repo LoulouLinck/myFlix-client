@@ -69,8 +69,6 @@ MERN
 - **Filtering the list of movies with a “search” feature**
 - **Ability to select a movie for more details**
 - **Allows users to add a movie to their list of favorites**
-<br>
-
 - **Signup / Login pages**
 - **List of Movies (fetched from my own API)**
 - **User profile view to:**
